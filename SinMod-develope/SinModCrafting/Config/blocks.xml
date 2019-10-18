@@ -1,0 +1,253 @@
+<!-- 
+Here is a template XML format for xpath for A17+ 
+
+This XML file has to be named the same as its vanilla file. If you are editing items.xml, this file needs to be called items.xml
+
+Here are some example xpath:
+	Changes the Light value to 0.45
+  	<set xpath="/items/item[@name='meleeToolTorch']/property[@name='LightValue']/@value">0.45</set>
+	
+	Adds in a new torch at the bottom of the items.xml
+	<append xpath="/items" ><item name="AnothermeleeToolTorch"><property name="Extends" value="meleeToolTorch"/><property name="LightValue" value="1" /></item></append>
+	
+	Deletes the torch.
+	<remove xpath="/items/item[@name='meleeToolTorch']" />
+	
+-->
+<Config>
+    <append xpath="/blocks" >
+        <!-- Industrial Light 01-->
+        <block name="industrialLight01_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="industrialLight01"/>
+            <property name="Model" value="Entities/Lighting/industrialLight01Prefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <!-- Industrial Light 02-->
+        <block name="industrialLight02_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="industrialLight02"/>
+            <property name="Model" value="Entities/Lighting/industrial_light_02Prefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <!-- Porch Light  01  Old  Outdoor Light -->
+        <block name="porchLight01_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="porchLight01"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+            <property name="AllowAllRotations" value="true"/>
+        </block>
+        <!-- Porch Light 04  Brass  Edition -->
+        <block name="porchLight04Brass_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="porchLight04"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/porchLight04BrassPrefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+            <property name="AllowAllRotations" value="true"/>
+        </block>
+        <!-- Porch Light 04  -->
+        <block name="porchLight04_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="porchLight04"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/porchLight04Prefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+            <property name="AllowAllRotations" value="true"/>
+        </block>
+        <!-- CeilingLight02 Silver Dome light  -->
+        <block name="ceilingLight02_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="ceilingLight02"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/ceilingLight02Prefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <!-- CeilingLight02 Silver Dome light Brass Edition -->
+        <block name="ceilingLight02Brass_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="ceilingLight02"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <!-- Ceiling Light 05  is  pretty much 04 tell me a difference ... :)  -->
+        <block name="ceilingLight05_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="ceilingLight04"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <!--  Ceiling  Light 05 Brass  Edition -->
+        <block name="ceilingLight05Brass_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="ceilingLight04"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <block name="ceilingLight04_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="ceilingLight04"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="Material" value="Mglass"/>
+            <property name="StabilitySupport" value="false"/>
+            <!-- build restriction -->
+            <property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/>
+            <property name="HandleFace" value="Top"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <!--  Ceiling Light 07 is the Fluorescent Light -->
+        <block name="ceilingLight07_player">
+            <property name="Class" value="PoweredLight"/>
+            <property name="Extends" value="porchLight01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+            <property name="CustomIcon" value="ceilingLight07"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="HandleFace" value="Top"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="1"/>
+                <property name="resourceElectricParts" value="3"/>
+                <property name="resourceElectricParts" value="2"/></property>
+            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+            <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+            <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+            <drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+            <property name="Model" value="Entities/Lighting/player_ceilingLight07Prefab"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <block name="endTableLampPlayer">
+            <property name="Class" value="PoweredLight"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="porchLight01" param1="HandleFace"/>
+            <property name="CustomIcon" value="endTableLamp"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="Entities/Lighting/end_table_lightPrefab"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property name="RuntimeSwitch" value="true"/>
+            <property name="TakeDelay" value="5"/>
+        </block>
+        <block name="Faucet Small">
+            <property name="Material" value="Mmetal_thin"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Shape" value="ModelEntity"/>
+            <!--<property name="Mesh" value="models"/>-->
+            <property name="Model" value="Entities/Plumbing/faucet04Prefab" />
+            <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            <property name="Weight" value="16"/>
+            <property name="EconomicValue" value="20"/>
+            <!-- disassemble value -->
+            <property name="FilterTags" value="fdecor,fother,ffurniture"/>
+            <property name="CustomIcon" value="faucet04"/>
+            <property name="Group" value="Building"/>
+        </block>
+        <block name="Faucet">
+            <property name="Material" value="Mmetal_thin"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Shape" value="ModelEntity"/>
+            <!--<property name="Mesh" value="models"/>-->
+            <property name="Model" value="Entities/Plumbing/faucet02Prefab" />
+            <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            <property name="Weight" value="24"/>
+            <property name="EconomicValue" value="40"/>
+            <!-- disassemble value -->
+            <property name="FilterTags" value="fdecor,fother,ffurniture"/>
+            <property name="CustomIcon" value="faucet02" />
+            <property name="Group" value="Building"/>
+        </block>
+        <block name="Wall Oven">
+            <property name="Class" value="Campfire"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Texture" value="346,345,341,345,262,345"/>
+            <property name="IsTerrainDecoration" value="true" />
+            <property name="ParticleName" value="campfire" />
+            <property name="ParticleOffset" value="0.7,0,0.7" />
+            <property name="Stacknumber" value="1" />
+            <property name="HeatMapStrength" value="2"/>
+            <property name="HeatMapTime" value="1200"/>
+            <property name="HeatMapFrequency" value="25"/>
+            <property name="BuffsWhenWalkedOn" value="blockBurn3Trigger"/>
+            <property name="ActiveRadiusEffects" value="+heatSource(3)"/>
+            <property class="Workstation">
+                <property name="CraftingAreaRecipes" value="campfire"/>
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket" /></property>
+            <property class="RepairItems">
+                <property name="mechanicalParts" value="1" />
+                <property name="scrapIron" value="5" /></property>
+            <drop event="Harvest" name="mechanicalParts" count="0,1" tool_category="Disassemble"/>
+            <drop event="Harvest" name="shortMetalPipe" count="1,2" tool_category="Disassemble"/>
+            <drop event="Destroy" name="scrapIron" count="5,10" prob="1"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="Group" value="Food/Cooking" />
+            <property name="SellableToTrader" value="false" />
+            <property name="CustomIcon" value="cntWallOven" />
+        </block>
+    </append>
+</Config>

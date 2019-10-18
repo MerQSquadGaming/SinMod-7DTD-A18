@@ -1,0 +1,4 @@
+<Config>
+	<set xpath="/entity_classes/entity_class/property[@name='LootDropProb' and @value='0.02']">0.2</set>
+	<set xpath="/entity_classes/entity_class/property[@name='LootDropProb' and @value='.03']">0.3</set>
+</Config>

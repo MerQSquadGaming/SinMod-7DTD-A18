@@ -1,0 +1,7 @@
+<Config>
+<!-- Add the herpes buff, we'll remove infection too -->
+<set xpath="/items/item[@name='meleeHandZombieStripper']/property[@class='Action0']/property[@name='Buff']/@value">buffHerpes,buffInjuryBleeding,buffInjuryStunned1</set>
+<append xpath="/items/item[starts-with(@name, 'meleeHandZombieStripper')]/effect_group[@name='Base Effects']">
+		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffHerpes"/>
+</append>
+</Config>

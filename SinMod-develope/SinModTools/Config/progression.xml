@@ -1,0 +1,15 @@
+<Config>
+    <append xpath="/progression/perks">
+        <perk name="perkScrapTools" parent="skillConstruction" max_level="1" name_key="Scrap Iron Tools" desc_key="Unlocks the recipes for crafting scrap iron tools" icon="ui_game_symbol_tool_smithing">
+            <level_requirements level="1">
+                <requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel1"/>
+            </level_requirements>
+            <effect_group>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="meleeToolPickaxeScrap,meleeToolFireaxeScrap,meleeToolShovelScrap,meleeToolShivScrap"/>
+            </effect_group>
+            <effect_group>
+                <effect_description level="1" desc_base="Ability to craft scrap iron tools"/>
+            </effect_group>
+        </perk>
+    </append>
+</Config>

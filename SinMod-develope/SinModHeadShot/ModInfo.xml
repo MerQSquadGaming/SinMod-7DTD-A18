@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="SinModHeadShot" />
+        <Description value="Increases headshot damage by 50%" />
+        <Author value="Sinistermind81" />
+        <Version value="2.0.1" />
+    </ModInfo>
+</xml>

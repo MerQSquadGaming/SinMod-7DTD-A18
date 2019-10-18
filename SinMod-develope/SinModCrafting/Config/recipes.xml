@@ -1,0 +1,115 @@
+<!-- 
+Here is a template XML format for xpath for A17+ 
+
+This XML file has to be named the same as its vanilla file. If you are editing items.xml, this file needs to be called items.xml
+
+Here are some example xpath:
+	Changes the Light value to 0.45
+  	<set xpath="/items/item[@name='meleeToolTorch']/property[@name='LightValue']/@value">0.45</set>
+	
+	Adds in a new torch at the bottom of the items.xml
+	<append xpath="/items" ><item name="AnothermeleeToolTorch"><property name="Extends" value="meleeToolTorch"/><property name="LightValue" value="1" /></item></append>
+	
+	Deletes the torch.
+	<remove xpath="/items/item[@name='meleeToolTorch']" />
+	
+-->
+<Config>
+    <append xpath="/recipes" >
+        <recipe name="industrialLight01_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="2"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="4"/>
+        </recipe>
+        <recipe name="industrialLight02_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="4"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="1"/>
+        </recipe>
+        <recipe name="porchLight04Brass_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="2"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapBrass" count="3"/>
+        </recipe>
+        <recipe name="porchLight04_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="2"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="3"/>
+        </recipe>
+        <recipe name="porchLight01_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="3"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="3"/>
+        </recipe>
+        <recipe name="ceilingLight05Brass_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="3"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapBrass" count="3"/>
+        </recipe>
+        <recipe name="ceilingLight05_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="3"/>
+            <ingredient name="resourceElectricParts" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="1"/>
+        </recipe>
+        <recipe name="ceilingLight04_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="3"/>
+            <ingredient name="resourceElectricParts" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="3"/>
+        </recipe>
+        <recipe name="ceilingLight02Brass_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="2"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapBrass" count="3"/>
+        </recipe>
+        <recipe name="ceilingLight02_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="2"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="3"/>
+        </recipe>
+        <recipe name="ceilingLight07_player" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="2"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="5"/>
+        </recipe>
+        <recipe name="endTableLampPlayer" count="1" craft_area="workbench">
+            <ingredient name="resourceWood" count="5"/>
+            <ingredient name="resourceHeadlight" count="1"/>
+            <ingredient name="resourceElectricParts" count="3"/>
+            <ingredient name="resourceDuctTape" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="4"/>
+        </recipe>
+        <recipe name="Wall Oven" count="1" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="10" />
+            <ingredient name="resourceMechanicalParts" count="2" />
+            <ingredient name="resourceElectricParts" count="4" />
+            <ingredient name="resourceMetalPipe" count="2" />
+            <ingredient name="glassIndustrialCTRPlate" count="2" />
+        </recipe>
+        <recipe name="Faucet Small" count="1" craft_area="workbench">
+            <ingredient name="resourceMetalPipe" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceScrapIron" count="5"/>
+            <ingredient name="bucketRiverWater" count="5"/>
+        </recipe>
+        <recipe name="Faucet" count="1" craft_area="workbench">
+            <ingredient name="resourceMetalPipe" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceScrapIron" count="5"/>
+            <ingredient name="bucketRiverWater" count="5"/>
+        </recipe>
+        <recipe name="solarbank" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceForgedSteel" count="100"/>
+            <ingredient name="resourceScrapPolymers" count="50"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceAcid" count="9"/>
+            <ingredient name="glassBulletproofPlate" count="9"/>
+        </recipe>
+        <recipe name="solarCell" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceAcid" count="1"/>
+            <ingredient name="glassBulletproofPlate" count="1"/>
+        </recipe>
+    </append>
+</Config>

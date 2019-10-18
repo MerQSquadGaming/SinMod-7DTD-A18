@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="SinModIncreaseZombieDrop" />
+        <Description value="Increases chance for zombies to drop loot by 20-30%" />
+        <Author value="Sinistermind81" />
+        <Version value="2.0.1" />
+    </ModInfo>
+</xml>
