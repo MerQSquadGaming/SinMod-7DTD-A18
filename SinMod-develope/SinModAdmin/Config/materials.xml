@@ -1,4 +1,4 @@
-<Config>
+<SinModAdmin>
     <append xpath="/materials">
         <!--Admin Materials-->
         <material id="Madmins">
@@ -25,4 +25,4 @@
             <property name="Experience" value="2"/>
         </material>
     </append>
-</Config>
+</SinModAdmin>

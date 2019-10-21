@@ -1,4 +1,4 @@
-<Config>
+<SinModAdmin>
     <append xpath="/blocks">
         <!--SinMod Starts Here-->
         <!--SinMod Admin Lobby Blocks-->
@@ -144,15 +144,6 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="pyramid"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="CreativeMode" value="Dev"/>
-        </block>
-        <block name="adminConcreteCNRInside">
-            <property name="Extends" value="adminConcreteMaster"/>
-            <property name="CustomIcon" value="rConcreteCNRInside"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="Shape" value="New"/>
-            <property name="Path" value="solid"/>
-            <property name="Model" value="ramp_inside_corner"/>
             <property name="CreativeMode" value="Dev"/>
         </block>
         <block name="adminConcreteCNRFull">
@@ -745,7 +736,7 @@
             <property name="Stacknumber" value="1"/>
             <property name="TakeDelay" value="1"/>
         </block>
-        <block name="SinModWelcomeLobby">
+        <block name="adminSinModWelcomeLobby">
             <property name="Material" value="Madmins"/>
             <property name="CreativeMode" value="Dev"/>
             <property name="DisplayType" value="blockMulti" />
@@ -767,7 +758,7 @@
             <property name="Model" value="#@modfolder:Resources/SinModLobbyPosters.unity3d?SinModWelcomeLobby" />
             <property name="CustomIcon" value="lobbyPosters" />
         </block>
-        <block name="SinModLobbyRules">
+        <block name="adminSinModLobbyRules">
             <property name="Material" value="Madmins"/>
             <property name="CreativeMode" value="Dev"/>
             <property name="DisplayType" value="blockMulti" />
@@ -789,7 +780,7 @@
             <property name="Model" value="#@modfolder:Resources/SinModLobbyPosters.unity3d?SinModLobbyRules" />
             <property name="CustomIcon" value="lobbyPosters" />
         </block>
-        <block name="SinModServerCommands">
+        <block name="adminSinModServerCommands">
             <property name="Material" value="Madmins"/>
             <property name="CreativeMode" value="Dev"/>
             <property name="DisplayType" value="blockMulti" />
@@ -1023,4 +1014,4 @@
             <property name="SortOrder1" value="70a0"/>
         </block>
     </append>
-</Config>
+</SinModAdmin>
