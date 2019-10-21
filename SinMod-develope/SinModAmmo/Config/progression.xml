@@ -5,7 +5,7 @@
                 <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/>
             </level_requirements>
             <effect_group>
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="dismantle9mmBullets,dismantle9mmSteelBullets,dismantle44MagBullets,dismantle44MagSteelBullets,dismantle762mmFMJBullets,dismantle762mmFMJSteelBullets,dismantleShotgunShells,dismantleShotgunSlugs"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="dismantle9mmBulletBall,dismantle9mmBulletAP,dismantle9mmBulletHP,dismantle44MagnumBulletBall,dismantle44MagnumBulletHP,dismantle44MagnumBulletAP,dismantle762mmBulletBall,dismantle762mmBulletHP,dismantle762mmBulletAP,dismantleShotgunShell,dismantleShotgunSlug,dismantleShotgunBreachingSlug"/>
             </effect_group>
             <effect_group>
                 <effect_description level="1" desc_base="Disassemble all ammo at workbench"/>
