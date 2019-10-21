@@ -15,7 +15,7 @@
             <drop event="Destroy" count="0" />
             <property name="IsTerrainDecoration" value="true" />
             <property name="PlantGrowing.Next" value="carsRandomHelper" />
-            <property name="PlantGrowing.GrowthRate" value="5" />
+            <property name="PlantGrowing.GrowthRate" value="720" />
             <property name="PlantGrowing.FertileLevel" value="0" />
             <property name="PlantGrowing.IsRandom" value="false" />
         </block>
