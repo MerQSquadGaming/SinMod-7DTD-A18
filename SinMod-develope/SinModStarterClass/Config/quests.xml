@@ -1,4 +1,4 @@
-<Config>
+<SinModStarterClass>
     <append xpath="/quests" >
         <!--SinMod Begins Here-->
         <!--SinMod Starter Quests-->
@@ -22,7 +22,7 @@
             <property name="group_name" value="Class"/>
             <reward type="Skill" id="attPerception" value="3" />
             <reward type="SkillPoints" value="2"/>
-            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="lockedClassCase" value="1"/>
             <reward type="Item" id="gunHuntingRifle" value="2"/>
             <reward type="Item" id="modGunSoundSuppressorSilencer" value="1"/>
             <reward type="Item" id="resourceRepairKit" value="4"/>
@@ -39,7 +39,7 @@
             <property name="group_name" value="Class"/>
             <reward type="Skill" id="attStrength" value="3" />
             <reward type="SkillPoints" value="2"/>
-            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="lockedClassCase" value="1"/>
             <reward type="Item" id="meleeToolSledgehammerIron" value="2"/>
             <reward type="Item" id="modMeleeWeightedHead" value="1"/>
             <reward type="Item" id="resourceForgedIron" value="4"/>
@@ -55,7 +55,7 @@
             <property name="group_name" value="Class"/>
             <reward type="Skill" id="attFortitude" value="3" />
             <reward type="SkillPoints" value="2"/>
-            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="lockedClassCase" value="1"/>
             <reward type="Item" id="gunBowCompound" value="2"/>
             <reward type="Item" id="modGunBowPolymerString" value="1"/>
             <reward type="Item" id="resourceRepairKit" value="4"/>
@@ -72,7 +72,7 @@
             <property name="group_name" value="Class"/>
             <reward type="Skill" id="attAgility" value="3" />
             <reward type="SkillPoints" value="2"/>
-            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="lockedClassCase" value="1"/>
             <reward type="Item" id="gun44Magnum" value="2"/>
             <reward type="Item" id="modGunLaserSight" value="1"/>
             <reward type="Item" id="resourceRepairKit" value="4"/>
@@ -89,9 +89,9 @@
             <property name="group_name" value="Class"/>
             <reward type="Skill" id="attIntellect" value="3" />
             <reward type="SkillPoints" value="2"/>
-            <reward type="Item" id="Class Case (Locked)" value="1"/>
+            <reward type="Item" id="lockedClassCase" value="1"/>
             <reward type="Item" id="gunPistol" value="2"/>
-            <reward type="Item" id="modGunTriggerGroupBurst" value="1"/>
+            <reward type="Item" id="modGunTriggerGroupBurst3" value="1"/>
             <reward type="Item" id="resourceRepairKit" value="4"/>
             <reward type="Item" id="ammo9mmBulletBall" value="50"/>
             <reward type="Quest" id="challenge_engineer1" />
@@ -338,4 +338,4 @@
             <reward type="Exp" value="1500" />
         </quest>
     </append>
-</Config>
+</SinModStarterClass>

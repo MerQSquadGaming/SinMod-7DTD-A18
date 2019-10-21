@@ -1,11 +1,10 @@
-<Config>
+<SinModStarterClass>
     <append xpath="/items" >
         <!--SinMod Class Selection-->
         <item name="StartWorldsEnd(README)">
             <property name="Extends" value="challengeQuestMaster" />
             <property name="CustomIcon" value="StartWorldsEnd(README)" />
             <property name="DescriptionKey" value="StartWorldsEnd(README)Desc"/>
-            <property name="Description" value="startWorldsEndDesc"/>
             <property class="Action0">
                 <property name="QuestGiven" value="quest_StartWorldsEnd" /></property>
         </item>
@@ -60,4 +59,4 @@
                 <property name="QuestGiven" value="quest_classEngineer" /></property>
         </item>
     </append>
-</Config>
+</SinModStarterClass>

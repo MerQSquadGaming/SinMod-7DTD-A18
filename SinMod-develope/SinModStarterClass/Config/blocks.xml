@@ -1,8 +1,8 @@
-<Config>
+<SinModStarterClass>
     <append xpath="/blocks">
-        <block name="Class Case (Locked)">
+        <block name="lockedClassCase">
             <property name="CreativeMode" value="Dev"/>
-            <property name="CustomIcon" value="ClassCase (Locked)" />
+            <property name="CustomIcon" value="lockedClassCase" />
             <property name="DescriptionKey" value="lockedClassCaseDesc"/>
             <property name="Material" value="Mcloth"/>
             <property name="Shape" value="ModelEntity"/>
@@ -11,9 +11,9 @@
             <property name="Path" value="solid"/>
             <property name="Place" value="TowardsPlacerInverted"/>
             <drop event="Destroy" count="0"/>
-            <property name="IsTerrainDecoration" value="true" />
+            <property name="DowngradeBlock" value="classCase"/>
         </block>
-        <block name="Class Case">
+        <block name="classCase">
             <property name="CreativeMode" value="None"/>
             <property name="DisplayType" value="blockHardenedMulti" />
             <property name="Material" value="Mwood_regular"/>
@@ -29,4 +29,4 @@
             <drop event="Destroy" count="0"/>
         </block>
     </append>
-</Config>
+</SinModStarterClass>

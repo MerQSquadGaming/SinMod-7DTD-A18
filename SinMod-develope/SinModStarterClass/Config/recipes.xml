@@ -1,4 +1,4 @@
-<Config>
+<SinModStarterClass>
     <append xpath="/recipes">
         <recipe name="classHitman" count="1">
             <ingredient name="classSelector" count="1" />
@@ -16,4 +16,4 @@
             <ingredient name="classSelector" count="1" />
         </recipe>
     </append>
-</Config>
+</SinModStarterClass>
