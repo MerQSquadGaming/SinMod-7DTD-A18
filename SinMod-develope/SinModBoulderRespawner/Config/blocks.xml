@@ -19,7 +19,7 @@
       <property name="FilterTags" value="foutdoor"/>
       <property name="Class" value="PlantGrowing"/>
       <property name="PlantGrowing.Next" value="rockResource"/>
-      <property name="PlantGrowing.GrowthRate" value="120"/>        <!-- 120 real-life minutes (2 hours). -->
+      <property name="PlantGrowing.GrowthRate" value="360"/>        <!-- 120 real-life minutes (2 hours). -->
       <property name="PlantGrowing.IsRandom" value="false"/> 
       <property name="PlantGrowing.FertileLevel" value="0"/>
       <property name="PlantGrowing.LightLevelGrow" value="0"/>
