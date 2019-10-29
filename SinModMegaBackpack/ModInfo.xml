@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="SinModMegaBackpack" />
+    <Description value="Increases the size of the player inventory to 120" />
+    <Author value="Sinistermind81" />
+    <Version value="1.1.0" />
+  </ModInfo>
+</xml>

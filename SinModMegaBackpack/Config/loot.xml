@@ -1,0 +1,4 @@
+<SinModMegaBackpack>
+    <!-- Player dropped backpack-->
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,13</set>
+</SinModMegaBackpack>
