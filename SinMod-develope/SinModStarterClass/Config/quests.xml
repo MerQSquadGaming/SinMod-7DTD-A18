@@ -211,29 +211,29 @@
             <reward type="Quest" id="challenge_survivalist2" />
         </quest>
         <quest id="challenge_survivalist2">
-            <property name="name" value="Bruiser Challenge 2/3" />
-            <property name="subtitle" value="Bruiser Challenge 2" />
+            <property name="name" value="Survivalist Challenge 2/3" />
+            <property name="subtitle" value="Survivalist Challenge 2" />
             <property name="description" value="You think you can survive a horde? Well Do ya?" />
             <property name="icon" value="ui_game_symbol_campfire" />
             <property name="repeatable" value="false" />
             <property name="shareable" value="false" />
-            <property name="group_name" value="quest_bruiser"/>
+            <property name="group_name" value="quest_Survivalist"/>
             <requirement type="Group" id="requirementGroupCompoundBow" value="OR">
                 <requirement type="Holding" id="gunBowCompound" /></requirement>
             <objective type="ZombieKill" value="50"/>
             <reward type="Item" id="ammoArrowIron" value="75" />
             <reward type="SkillPoints" value="2"/>
             <reward type="Exp" value="1000" />
-            <reward type="Quest" id="challenge_bruiser3" />
+            <reward type="Quest" id="challenge_survivalist3" />
         </quest>
         <quest id="challenge_survivalist3">
-            <property name="name" value="Bruiser Challenge 3/3" />
-            <property name="subtitle" value="Bruiser Challenge 3" />
+            <property name="name" value="Survivalist Challenge 3/3" />
+            <property name="subtitle" value="Survivalist Challenge 3" />
             <property name="description" value="So you think you're skilled with that Compound Bow? Well here's your chance." />
             <property name="icon" value="ui_game_symbol_campfire" />
             <property name="repeatable" value="false" />
             <property name="shareable" value="false" />
-            <property name="group_name" value="quest_bruiser"/>
+            <property name="group_name" value="quest_survivalist"/>
             <requirement type="Group" id="requirementGroupCompoundBow" value="OR">
                 <requirement type="Holding" id="gunBowCompound" /></requirement>
             <objective type="ZombieKill" value="100"/>
@@ -307,29 +307,29 @@
             <reward type="Quest" id="challenge_engineer2" />
         </quest>
         <quest id="challenge_engineer2">
-            <property name="name" value="Bruiser Challenge 2/3" />
-            <property name="subtitle" value="Bruiser Challenge 2" />
+            <property name="name" value="Engineer Challenge 2/3" />
+            <property name="subtitle" value="Engineer Challenge 2" />
             <property name="description" value="If we can build it, they will come... and come... and come...." />
             <property name="icon" value="ui_game_symbol_wrench" />
             <property name="repeatable" value="false" />
             <property name="shareable" value="false" />
-            <property name="group_name" value="quest_bruiser"/>
+            <property name="group_name" value="quest_engineer"/>
             <requirement type="Group" id="requirementGroupPistol" value="OR">
                 <requirement type="Holding" id="gunPistol" /></requirement>
             <objective type="ZombieKill" value="50"/>
             <reward type="Item" id="ammo9mmBulletBall" value="75" />
             <reward type="SkillPoints" value="2"/>
             <reward type="Exp" value="1000" />
-            <reward type="Quest" id="challenge_bruiser3" />
+            <reward type="Quest" id="challenge_engineer3" />
         </quest>
         <quest id="challenge_engineer3">
-            <property name="name" value="Bruiser Challenge 3/3" />
-            <property name="subtitle" value="Bruiser Challenge 3" />
+            <property name="name" value="Engineer Challenge 3/3" />
+            <property name="subtitle" value="Engineer Challenge 3" />
             <property name="description" value="Alright! We built as much as we could for now. Take them Z's out!" />
             <property name="icon" value="ui_game_symbol_wrench" />
             <property name="repeatable" value="false" />
             <property name="shareable" value="false" />
-            <property name="group_name" value="quest_bruiser"/>
+            <property name="group_name" value="quest_engineer"/>
             <requirement type="Group" id="requirementGroupPistol" value="OR">
                 <requirement type="Holding" id="gunPistol" /></requirement>
             <objective type="ZombieKill" value="100"/>
