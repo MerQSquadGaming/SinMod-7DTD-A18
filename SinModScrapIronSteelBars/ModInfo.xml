@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Scrap and Steel Bars" />
+        <Description value="Adds recipes for scrap and steel bars." />
+        <Author value="SinisterMind81" />
+        <Version value="1.0.2" />
+    </ModInfo>
+</xml>
