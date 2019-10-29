@@ -2,19 +2,19 @@
 <append xpath="/recipes">
 	<!-- Adding back the wood log spikes and scrap iron spikes -->
 	
-	<recipe name="steel Bars Centered" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+	<recipe name="Steel Bars Centered" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="steel Bars" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true"> 
+	<recipe name="Steel Bars" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true"> 
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
 
-	<recipe name="scrap Iron Bars Centered" count="1"> 
+	<recipe name="Scrap Iron Bars Centered" count="1"> 
 		<ingredient name="resourceScrapIron" count="40"/>
 	</recipe>
-	<recipe name="scrap Iron Bars" count="1"> 
+	<recipe name="Scrap Iron Bars" count="1"> 
 		<ingredient name="resourceScrapIron" count="40"/>
 	</recipe>
 
