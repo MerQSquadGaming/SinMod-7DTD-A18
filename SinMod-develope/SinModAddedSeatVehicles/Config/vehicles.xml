@@ -1,4 +1,4 @@
-<Config>
+<SinModAddedSeatVehicles>
     <insertAfter xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='seat0']">
         <property class="seat1">
             <property name="position" value="0, .05, 0.77"/>
@@ -35,4 +35,4 @@
             <property name="rotation" value="-25, 180, 0" />
             <property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0" /></property>
     </insertAfter>
-</Config>
+</SinModAddedSeatVehicles>
