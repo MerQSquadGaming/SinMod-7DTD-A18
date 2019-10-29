@@ -1,4 +1,4 @@
-<configs>
+<SinModCraftJail>
   <append xpath="/recipes">
     <recipe name="jailDoor" count="1" craft_area="workbench">
       <ingredient name="resourceForgedIron" count="100" />
@@ -10,4 +10,4 @@
       <ingredient name="resourceForgedIron" count="75" />
     </recipe>
   </append>
-</configs>
+</SinModCraftJail>

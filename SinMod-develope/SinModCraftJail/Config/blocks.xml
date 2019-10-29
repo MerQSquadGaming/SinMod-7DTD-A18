@@ -1,4 +1,4 @@
-<configs>
+<SinModCraftJail>
   <!-- fix jail bars -->
   <set xpath="/blocks/block[@name='jailBars']/property[@name='Material']/@value">Mmetal_hard</set>
   <set xpath="/blocks/block[@name='jailBars']/property[@name='FilterTags']/@value">fdecor,fother,fwindows,fdoors</set>
@@ -32,4 +32,4 @@
       </property>
     </block>
   </append>
-</configs>
+</SinModCraftJail>
