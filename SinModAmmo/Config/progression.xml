@@ -1,4 +1,4 @@
-<Config>
+<SinModMegaBackpack>
     <append xpath="/progression/perks">
         <perk name="perkAmmoDismantling" parent="skillCraftsmanship" max_level="1" name_key="Ammo Dismantling" desc_key="Unlocks the ability to dismantle ammo at workbench." icon="ui_game_symbol_scrap">
             <level_requirements level="1">
@@ -12,4 +12,4 @@
             </effect_group>
         </perk>
     </append>
-</Config>
+</SinModMegaBackpack>
