@@ -14,7 +14,7 @@ Here are some example xpath:
 	<remove xpath="/items/item[@name='meleeToolTorch']" />
 	
 -->
-<Config>
+<SinModCrafting>
     <append xpath="/blocks" >
         <!-- Industrial Light 01-->
         <block name="industrialLight01_player">
@@ -250,4 +250,4 @@ Here are some example xpath:
             <property name="CustomIcon" value="cntWallOven" />
         </block>
     </append>
-</Config>
+</SinModCrafting>
