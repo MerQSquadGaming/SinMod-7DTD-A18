@@ -1,0 +1,8 @@
+<SinModMenu>
+
+    <!-- Add new logo and Background -->
+
+    <set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@texture">@modfolder:UIAtlases/Images/background.png</set>
+    <set xpath="/windows/window[@name='mainMenuLogo']/texture[@name='gameLogo']/@texture">@modfolder:UIAtlases/Images/logo1.png</set>
+
+</SinModMenu>
