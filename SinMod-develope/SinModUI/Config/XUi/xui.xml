@@ -1,5 +1,0 @@
-<Config>
-    <append xpath="xui/ruleset/window_group[@name='compass']">
-       <window name="version" anchor="RightTop"/> 
-    </append>
-</Config>
