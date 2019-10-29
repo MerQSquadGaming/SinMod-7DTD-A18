@@ -1,0 +1,12 @@
+<SinModUI>
+	<!-- compass -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='compass']/window[@name='windowCompass']"/>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
+		<window name="SinModwindowCompass" /> 
+	</append>
+	<!-- Left HUD -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']"/>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<window name="SinModHUDLeftStatBars" anchor="LeftBottom" />
+	</append>
+</SinModUI>
