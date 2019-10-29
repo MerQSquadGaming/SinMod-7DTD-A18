@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="HH_Larger_Stack_Size" />
-		<Description value="HH_Larger_Stack_Size" />
-		<Author value="Highope" />
-		<Version value="1.0" />
-		<Website value="" />
+		<Name value="SinModStackIncrease" />
+		<Description value="Increases stack size of blocks and items" />
+		<Author value="SinisterMind81" />
+		<Version value="2.0" />
+		<Website value="https://www.merqsquad.com" />
 	</ModInfo>
 </xml>

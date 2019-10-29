@@ -1,4 +1,4 @@
-<configs><!--
+<SinModStackIncrease><!--
 <set xpath="/items/item/property[@name='Stacknumber']/@value">1000</set>
 -->
 
@@ -7,4 +7,4 @@
 <property name="Stacknumber" value="20000"/>
 </append>
 
-</configs>
+</SinModStackIncrease>
