@@ -1,4 +1,4 @@
-<Config>
+<SinModAmmo>
     <append xpath="/recipes" >
         <!--SinMod Ammo Dismantle -->
         <recipe name="dismantle9mmBulletBall" count="1" craft_area="workbench" tags="learnable">
@@ -41,4 +41,4 @@
             <ingredient name="ammoShotgunBreachingSlug" count="10"/>
         </recipe>
     </append>
-</Config>
+</SinModAmmo>

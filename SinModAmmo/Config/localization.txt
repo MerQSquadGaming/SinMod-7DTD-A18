@@ -1,5 +1,8 @@
 Key,Source,Context,Changes,English
-dismantleammo,items,Ammo,New,"Dismantle your ammo down into its base components. Requires the Workbench.",,
+
+bookAmmoDismantle,items,Ammo,New,"Learn to break down ammo to its original components.",,
+dismantleammo,items,Ammo,New,"Learn to break down ammo to its original components.",,
+
 dismantle44MagBulletBall,items,Ammo,New,Dismantle - 44Mag Ball Bullets,,
 dismantle44MagBulletHP,items,Ammo,New,Dismantle - 44Mag HP Bullets,,
 dismantle44MagBulletAP,items,Ammo,New,Dismantle - 44Mag AP Bullets,,
@@ -12,3 +15,9 @@ dismantle762mmBulletAP,items,Ammo,New,Dismantle - 762mm AP Bullets,,
 dismantleShotgunShell,items,Ammo,New,Dismantle - Shotgun Shells,,
 dismantleShotgunSlug,items,Ammo,New,Dismantle - Shotgun Slugs,,
 dismantleShotgunBreachingSlug,items,Ammo,New,Dismantle - Shotgun Breaching Slug,,
+
+perkAmmoDismantle0Name,progression,PerkBook,New,Dismantle Ammo,,,,,
+perkAmmoDismantleComplete,item,Ammo,New,Dismantle Ammo,,
+
+perkAmmoDismantle0Desc,progression,PerkBook,New,Got a collection of ammo and dont have the guns for it break it down to the original components and craft the ammo you need.,,,,,
+perkAmmoDismantleLongDesc,item,Quest,New,Got a collection of ammo and dont have the guns for it break it down to the original components and craft the ammo you need.,,
