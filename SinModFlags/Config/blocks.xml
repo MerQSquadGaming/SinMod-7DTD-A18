@@ -74,5 +74,9 @@
             <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagSinMod" />
             <property name="CustomIcon" value="flagSinMod" />
         </block>
+        <block name="flagRadiers">
+        </block>
+        <block name="flagBandits">
+        </block>
     </append>
 </SinModFlags>
