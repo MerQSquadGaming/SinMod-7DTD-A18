@@ -848,7 +848,7 @@
             <property name="CreativeMode" value="Dev"/>
             <property name="Class" value="MotionSensor"/>
             <property name="Material" value="Madmins"/>
-            <property name="CustomIcon" value="motionSensor"/>
+            <property name="CustomIcon" value="motionsensor"/>
             <property name="CustomIconTint" value="ff0000"/>
             <property name="StabilitySupport" value="false"/>
             <property name="Shape" value="ModelEntity"/>
@@ -936,7 +936,6 @@
         </block>
         <block name="adminLoudspeaker">
             <property name="CreativeMode" value="Dev"/>
-            <property name="CustomIcon" value="speaker"/>
             <property name="Class" value="SpeakerTrader"/>
             <property name="CustomIcon" value="loudspeaker"/>
             <property name="CustomIconTint" value="ff0000"/>
