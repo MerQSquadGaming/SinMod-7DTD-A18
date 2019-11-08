@@ -1,0 +1,30 @@
+<SinModWorkingKitchen>
+    <append xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']">
+        <property name="Focused_blockname_6" value="workingGranitSink" />
+        <property name="Focused_blockname_7" value="workingCabinetSink" />
+    </append>
+
+    <append xpath="/items/item[@name='drinkCanEmpty']/property[@class='Action1']">
+        <property name="Focused_blockname_6" value="workingGranitSink" />
+        <property name="Focused_blockname_7" value="workingCabinetSink" />
+    </append>
+
+    <append xpath="/items/item[@name='bucketEmpty']/property[@class='Action1']">
+        <property name="Focused_blockname_6" value="workingGranitSink" />
+        <property name="Focused_blockname_7" value="workingCabinetSink" />
+    </append>
+    <append xpath="/items">
+        <item name="resourceAirSinkFilter">
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="Tags" value="junk"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mplastics"/>
+            <property name="Stacknumber" value="1"/>
+            <!-- STK loot -->
+            <property name="Weight" value="15"/>
+            <property name="EconomicValue" value="25"/>
+            <property name="Group" value="Resources"/>
+        </item>
+    </append>
+</SinModWorkingKitchen>
