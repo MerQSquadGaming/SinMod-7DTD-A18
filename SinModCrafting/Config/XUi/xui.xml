@@ -1,6 +1,6 @@
-<Config>
+<SinModCrafting>
 	<append xpath="/xui/ruleset">
-		<window_group name="workstation_Wall Oven" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstationWallOven" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -10,4 +10,4 @@
 			<window name="windowNonPagingHeader" />
 		</window_group>
 	</append>
-</Config>
+</SinModCrafting>
