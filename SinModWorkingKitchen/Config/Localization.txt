@@ -9,5 +9,4 @@ workingUtilitySink,blocks,Block,New,Working Utiliy Sink
 workingSinkDesc,blocks,Block,New,This working sink can be used as a source of clean water. Fill your jars with water by left-clicking with them.
 resourceSinkFilter,items,Item,New,Osmosis Filter System
 resourceSinkFilterDesc,items,Item,New,Osmosis Filter System used to craft working sinks.
-
-perkMasterChefRank3LongDesc,progression,Perk,New,"Learn how to make nutritious pot luck meals from canned goods. Craft Sham Chowder, Hobo Stew and Fish Tacos. Cook 30% faster and learn to build working sinks and stoves.",,,,,
+perkMasterChefRank3LongDesc,progression,Perk,New,"Learn how to make nutritious pot luck meals from canned goods. Craft Sham Chowder, Hobo Stew and Fish Tacos. Cook 30% faster and learn to build working sinks and stoves."
