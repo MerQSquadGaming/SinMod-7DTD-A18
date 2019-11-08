@@ -37,7 +37,6 @@
             <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
             <property name="FilterTags" value="floot,ffurniture"/>
         </block>
-
         <block name="workingStove">
             <property name="DescriptionKey" value="workingOvenDesc" />
             <property name="Class" value="Campfire"/>
@@ -67,7 +66,7 @@
             <property class="Workstation">
                 <property name="Modules" value="tools,output,input"/>
                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
-                <property name="CraftingAreaRecipes" value="workingOven,campfire"/>
+                <property name="CraftingAreaRecipes" value="workingStove,campfire"/>
             </property>
             <property class="RepairItems">
                 <property name="resourceforgedSteel" value="5" />
@@ -79,8 +78,7 @@
             <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
             <property name="FilterTags" value="floot,ffurniture"/>
         </block>
-
-        <block name="workingGranitSink">
+        <block name="workingGraniteSink">
             <property name="DescriptionKey" value="workingSinkDesc" />
             <property name="CustomIcon" value="cntGraniteSink" />
             <property name="Class" value="Loot" />
@@ -105,13 +103,34 @@
             <property class="RepairItems">
                 <property name="scrapIron" value="10" />
             </property>
+            <property name="FilterTags" value="ffurniture"/>
         </block>
         <block name="workingCabinetSink">
-            <property name="Extends" value="workingGranitSink" />
+            <property name="Extends" value="workingGraniteSink" />
             <property name="CustomIcon" value="cntCabinetOldSink" />
             <property name="Texture" value="374,78,79,84,84,84" />
             <!-- 373/374=sink, 84=cabinetWood -->
         </block>
-
+        <block name="workingUtilitySink">
+            <property name="DescriptionKey" value="workingSinkDesc" />
+            <property name="CustomIcon" value="utilitySink" />
+            <property name="Material" value="Mmetal"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="Entities/Plumbing/utility_sinkPrefab"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="Path" value="solid"/>
+            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+            <drop event="Harvest" name="resourceMetalPipe" count="4" tag="allHarvest"/>
+            <drop event="Harvest" name="resourceScrapIron" count="10" tag="salvageHarvest"/>
+            <drop event="Harvest" name="resourceScrapBrass" prob="1" count="1,5" tag="WasteTreasuresSinkHarvest"/>
+            <drop event="Harvest" name="resourceScrapLead" prob="1" count="1,5" tag="WasteTreasuresSinkHarvest"/>
+            <drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="EconomicValue" value="60"/>
+            <!-- disassemble value -->
+            <property name="FilterTags" value="ffurniture"/>
+        </block>
     </append>
 </SinModWorkingKitchen>
