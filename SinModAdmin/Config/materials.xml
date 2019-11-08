@@ -1,5 +1,6 @@
 <SinModAdmin>
     <append xpath="/materials">
+        <!--SinMod Starts Here-->
         <!--Admin Materials-->
         <material id="Madmins">
             <property name="damage_category" value="stone"/>
