@@ -4,7 +4,7 @@
 		<Name value="SinModLights" />
 		<Description value="Adds ability to craft custom blocks for your base, lights, solarcell, solarbank, Working Oven, working Sinks, Lamp end table." />
 		<Author value="Sinistermind81" />
-		<Version value="2.0.1" />
+		<Version value="2.1.0" />
 		<Website value="https://www.merqsquad.com" />
 	</ModInfo>
 </xml>
