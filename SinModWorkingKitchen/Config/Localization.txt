@@ -1,0 +1,174 @@
+Key,Source,Context,Changes,English
+workingOven,blocks,Block,New,Working Oven
+workingOvenDesc,blocks,Block,New,This working oven can be used to cook many different recipes without using a fuel source.
+workingStove,blocks,Block,New,Working Stove
+workingStoveDesc,blocks,Block,New,This working stove can be used to cook many different recipes without using a fuel source.
+workingGraniteSink,blocks,Block,New,Working Granite Sink
+workingCabinetSink,blocks,Block,New,Working Cabinet Sink
+workingUtilitySink,blocks,Block,New,Working Utiliy Sink
+workingSinkDesc,blocks,Block,New,This working sink can be used as a source of clean water. Fill your jars with water by left-clicking with them.
+resourceSinkFilter,items,Item,New,Osmosis Filter System
+resourceSinkFilterDesc,items,Item,New,Osmosis Filter System used to craft working sinks.
+perkMasterChefRank3LongDesc,progression,Perk,New,"Learn how to make nutritious pot luck meals from canned goods. Craft Sham Chowder, Hobo Stew and Fish Tacos. Cook 30% faster and learn to build working sinks and stoves."
+
+resourceBowl,items,Item Food,,Clay Bowl,,
+resourceBowlDesc,items,Item Food,,Use clay bowls for cooking stews and other various foods.,,
+
+resourcedDinnerPlate,items,Item Food,,Dinner Plate,,
+resourcedDinnerPlateDesc,items,Item Food,,Use dinner plates to make delicious meals.,,
+
+drinkBowlWater,items,Item Food,,Bowl of Water,,
+drinkBowlWaterDesc,items,Item Food,,A bowl of clean water. Great for making food but could be drunk if in a pinch.,,
+
+drinkBowlMurkyWater,items,Item Food,,Bowl of Murky Water,,
+drinkBowlMurkyWaterDesc,items,Item Food,,This bowl is full of murky water. Boil it or use purification tablets to clean it.,,
+
+foodBlueberryJam,items,Item Food,,Blueberry Jam,,
+foodBlueberryJamDesc,items,Item Food,,Delicious blueberry jam.,,
+
+cannedFoodDesc,items,Item Food,,This quickly canned stew is great for hiding the smell of food from nearby zombies.,,
+
+canChunkyMeatStew,items,Item Food,,Canned Chunky Meat Stew,,
+
+canMeatStew,items,Item Food,,Canned Meat Stew,,
+
+canVegetableStew,items,Item Food,,Canned Vegetable Stew,,
+
+canLokiStew,items,Item Food,,Canned Loki Stew,,
+
+foodBowlFruitDesc
+
+warmBowlDesc,items,Item Food,,This bowl of food has been heated up to be more delicious and filling.,,
+
+stewChunkyMeatDesc,items,Item Food,,This stew is full of chunky meats making it very fulfilling if not very healthy.,,
+stewChunkyMeat,items,Item Food,,Chunky Meat Stew,,
+
+bowlFruit,items,Item Food,,Bowl of Fruit,,
+bowlFruitDesc,items,Item Food,,This bowl of fruit may not be very filling but its very healthy for you.,,
+
+cornbreadJam,items,Item Food,,Cornbread and Jam,,
+cornbreadJamDesc,items,Item Food,,This cornbread has been smeared with a nice layer of blueberry jam.,,
+
+soupChunkyBeef,items,Item Food,,Chunky Beef Soup,,
+
+
+soupChicken,items,Item Food,,Chicken Soup,,
+
+
+soupLamb,items,Item Food,,Lamb Soup,,
+
+
+bowlChili,items,Item Food,,Bowl of Chili,,
+
+
+bowlMiso,items,Item Food,,Bowl of Miso,,
+
+
+soupPea,items,Item Food,,Pea Soup,,
+
+
+bowlPasta,items,Item Food,,Bowl of Pasta,,
+
+
+bowlSoup,items,Item Food,,Bowl of Soup,,
+
+
+bowlStock,items,Item Food,,Bowl of Stock,,
+
+
+creamedCorn,items,Item Food,,Creamed Corn,,
+
+
+soupMushroom,items,Item Food,,Mushroom Soup,,
+
+
+meadBlueberry,items,Item Food,,Blueberry Mead,,
+
+
+warmsoupChunkyBeef,items,Item Food,,Warm Chunky Beef Soup,,
+
+
+warmsoupChicken,items,Item Food,,Warm Chicken Soup,,
+
+
+warmsoupLamb,items,Item Food,,Warm Lamb Soup,,
+
+
+warmbowlChili,items,Item Food,,Warm Bowl of Chili,,
+
+
+warmbowlMiso,items,Item Food,,Warm Bowl of Miso,,
+
+
+warmsoupPea,items,Item Food,,Warm Pea Soup,,
+
+
+warmbowlPasta,items,Item Food,,Warm Bowl of Pasta,,
+
+
+warmbowlSoup,items,Item Food,,Warm Soup,,
+
+
+warmbowlStock,items,Item Food,,Warm Bowl of Stock,,
+
+
+honeyHam,items,Item Food,,Honey Ham,,
+
+
+scrambledEggs,items,Item Food,,Scrambled Eggs,,
+
+
+baconEggSandwich,items,Item Food,,Bacon Egg Sandwich,,
+
+
+applePie,items,Item Food,,Apple Pie,,
+
+
+appleCider,items,Item Food,,Apple Cider,,
+
+
+grillSteak,items,Item Food,,Grilled Steak,,
+
+
+steakSandwich,items,Item Food,,Steak Sandwich,,
+
+
+assortedVegetables,items,Item Food,,Assorted Vegetables,,
+
+
+biscuit,items,Item Food,,Biscuit,,
+
+
+biscuitJam,items,Item Food,,Biscuit and Jam,,
+
+
+mealBreakfast,items,Item Food,,Breakfast Meal,,
+
+
+mealDinner,items,Item Food,,Dinner Meal,,
+
+
+coldfoodYuccaJuice,items,Item Food,,Cold Yucca Juice,,
+
+
+coldbottledWater,items,Item Food,,Cold Bottled Water,,
+
+
+coldgoldenRodTea,items,Item Food,,Cold Goldenrod Tea,,
+
+
+coldredTea,items,Item Food,,Cold Red Tea,,
+
+
+coldcoffee,items,Item Food,,Iced Coffee,,
+
+
+colddrinkEnergy,items,Item Food,,Cold Energy Drink,,
+
+
+coldwaterPurified,items,Item Food,,Cold Purified Water,,
+
+flour,items,Item Food,,Flour,,
+flourDesc,items,Item Food,,"Flour is a key ingredient to making pies, biscuits and bread.",,
+
+soupDesc,items,Item Food,,Originally from a can this soup offers a more rewarding taste now that you're eating it properly.,,
