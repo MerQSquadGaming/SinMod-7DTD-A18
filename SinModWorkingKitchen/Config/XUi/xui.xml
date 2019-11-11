@@ -1,6 +1,7 @@
   
 <SinModWorkingKitchen>
 	<append xpath="/xui/ruleset">
+	<!-- SinMod -->
 		<window_group name="workstation_workingOven" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
