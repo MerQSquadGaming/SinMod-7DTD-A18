@@ -30,7 +30,8 @@
             <!-- <property name="ImposterExchange" value="imposterBlock" param1="2"/> -->
             <property name="CreativeMode" value="None"/>
             <property class="RepairItems">
-                <property name="resourceConcreteMix" value="1"/></property>
+                <property name="resourceConcreteMix" value="1"/>
+            </property>
             <drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
             <drop event="Destroy" count="0"/>
             <drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
@@ -47,9 +48,11 @@
                 <property name="ToBlock" value="woodFrameBlock"/>
                 <property name="Item" value="meleeToolAdmin"/>
                 <property name="ItemCount" value="1"/>
-                <property name="UpgradeHitCount" value="1"/></property>
+                <property name="UpgradeHitCount" value="1"/>
+            </property>
             <property name="CustomUpgradeSound" value="place_block_concrete"/>
         </block>
+
         <block name="adminConcreteRamp">
             <property name="Extends" value="adminConcreteMaster"/>
             <property name="CustomIcon" value="rConcreteRamp"/>
@@ -57,14 +60,14 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="ramp"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteBlock">
             <property name="Extends" value="adminConcreteMaster"/>
             <property name="CustomIcon" value="rConcreteBlock"/>
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Path" value="solid"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCNRRound">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -73,14 +76,14 @@
             <property name="Shape" value="New"/>
             <property name="Path" value="solid"/>
             <property name="Model" value="corner_round1m"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCNRRoundTop">
             <property name="Extends" value="adminConcreteMaster"/>
             <property name="CustomIcon" value="rConcreteCNRRoundTop"/>
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Model" value="corner_rounded"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteStairs25">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -92,7 +95,7 @@
             <property name="UseGlobalUV" value="Global"/>
             <property name="Stairs"/>
             <property name="ImposterExchange" value="imposterRamp" param1="2"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePillar100">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -103,7 +106,7 @@
             <property name="Model" value="Pole1m"/>
             <property name="UseGlobalUV" value="Local"/>
             <property name="ImposterExchange" value="imposterBlock" param1="2"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePillar50">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -116,7 +119,7 @@
             <property name="UseGlobalUV" value="Local"/>
             <property name="ImposterDontBlock" value="true"/>
             <property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="2"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteArch">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -125,7 +128,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="Arch"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteStairs25CornerCNR">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -135,7 +138,7 @@
             <property name="Model" value="stairs_filled_corner"/>
             <property name="Place" value="TowardsPlacerInverted"/>
             <property name="ImposterExchange" value="imposterCNRFull" param1="2"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePyramid">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -144,7 +147,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="pyramid"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCNRFull">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -152,7 +155,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="ramp_outside_corner"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeIncline">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -161,7 +164,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60_incline"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCTRPlate">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -170,7 +173,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="plate_centered"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeTipCNRFullTop">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -179,7 +182,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60_corner"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <!-- SortShape -->
         </block>
         <block name="adminConcreteQuarter">
@@ -190,7 +193,7 @@
             <property name="LightOpacity" value="0"/>
             <property name="Model" value="cube_quarter"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <!-- SortShape -->
         </block>
         <block name="adminConcreteHalf">
@@ -199,7 +202,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="cube_half"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <!-- SortShape -->
         </block>
         <block name="adminConcreteHalfCentered">
@@ -209,7 +212,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="cube_half_centered"/>
             <property name="DescriptionKey" value="shapeHalfCenteredGroupDesc"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCNRRamp">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -219,7 +222,7 @@
             <property name="LightOpacity" value="6"/>
             <property name="Model" value="ramp_corner"/>
             <property name="ImposterDontBlock" value="true"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePole">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -231,7 +234,7 @@
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <property name="ImposterExclude" value="true"/>
             <property name="UseGlobalUV" value="Local"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePlate">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -239,7 +242,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="Plate"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeTipCNRFullBottom">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -248,7 +251,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60_tip_corner"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteStairs50">
             <property name="DisplayType" value="blockHardened" />
@@ -261,7 +264,7 @@
             <property name="Texture" value="8"/>
             <property name="UseGlobalUV" value="Global"/>
             <property name="Stairs"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeCNRInsideBottom">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -270,7 +273,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60_inside_corner"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteHalfRampStairs50">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -279,7 +282,7 @@
             <property name="Shape" value="New"/>
             <property name="Path" value="solid"/>
             <property name="Model" value="angled_stairs50"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteHalfRampStairs50Filler">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -287,7 +290,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="angled_stairs50_filler"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePoleSCTR">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -298,7 +301,7 @@
             <property name="UseGlobalUV" value="Local"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <property name="FilterTags" value="fbuilding,fconcrete,fdecor,fwindows"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeCNRInsideTop">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -308,7 +311,7 @@
             <property name="Path" value="solid"/>
             <property name="Model" value="wedge60_inside_corner_2"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteArrowSlitHalf">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -319,7 +322,7 @@
             <property name="Model" value="arrow_slit_half"/>
             <property name="Place" value="TowardsPlacerInverted"/>
             <property name="ImposterExchange" value="imposterBlock" param1="2"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteStairsFilledRailingLeft">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -334,7 +337,7 @@
             <property name="Stairs"/>
             <property name="ImposterExchange" value="imposterRamp" param1="2"/>
             <property name="MirrorSibling" value="concreteStairsFilledRailingRight"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteStairsFilledRailingRight">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -349,7 +352,7 @@
             <property name="Stairs"/>
             <property name="ImposterExchange" value="imposterRamp" param1="2"/>
             <property name="MirrorSibling" value="concreteStairsFilledRailingLeft"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteGableInvertedSteep">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -357,7 +360,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="gable_inverted_steep"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeStairs">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -367,7 +370,7 @@
             <property name="Path" value="solid"/>
             <property name="Model" value="wedge_stairs"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteQuarterCNR">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -376,7 +379,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="quarter_inside_corner"/>
             <property name="DescriptionKey" value="shapeQuarterCNRGroupDesc"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedge">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -385,7 +388,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCNRRampFiller">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -396,7 +399,7 @@
             <property name="Model" value="ramp_corner_filler"/>
             <property name="Place" value="TowardsPlacerInverted"/>
             <property name="UseGlobalUV" value="Global"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeTip">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -405,7 +408,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60_tip"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeCNRInsideSteepTop">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -413,7 +416,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge_inside_corner_base"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeTipStairs">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -422,7 +425,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge_tip_stairs"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeCNRSteepTop">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -431,7 +434,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60_tip_corner_top"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteGable1m">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -439,7 +442,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge_tip_full"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteQuarterTeeSCtr">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -449,7 +452,7 @@
             <property name="Model" value="quarter_t_centered"/>
             <property name="Place" value="TowardsPlacerInverted"/>
             <property name="DescriptionKey" value="shapeQuarterTeeSCtrGroupDesc"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeCNRSteepBase">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -457,7 +460,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge60_tip_corner_base"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteQuarterSCtr">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -469,7 +472,7 @@
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <property name="DescriptionKey" value="shapeQuarterSCtrGroupDesc"/>
             <property name="UseGlobalUV" value="Global"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePillar100Cap">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -478,7 +481,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="Pole1m_cap"/>
             <property name="ImposterExchange" value="imposterPyramid" param1="2"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteWedgeCNRInsideSteepBase">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -487,7 +490,7 @@
             <property name="Shape" value="New"/>
             <property name="Path" value="solid"/>
             <property name="Model" value="wedge_inside_corner_top"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCTRpole">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -499,7 +502,7 @@
             <property name="AllowAllRotations" value="true"/>
             <property name="ImposterExclude" value="true"/>
             <property name="UseGlobalUV" value="Local"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteGableQuarter">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -508,7 +511,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="wedge_tip_quarter"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteGableInvertedQuarter">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -517,7 +520,7 @@
             <property name="Shape" value="New"/>
             <property name="Path" value="solid"/>
             <property name="Model" value="gable_inverted_quarter"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteGableInvertedHalf">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -526,7 +529,7 @@
             <property name="Shape" value="New"/>
             <property name="Path" value="solid"/>
             <property name="Model" value="gable_inverted_half"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteHalfPlate">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -536,7 +539,7 @@
             <property name="Model" value="trim01"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <property name="LightOpacity" value="5"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePyramid1m">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -544,7 +547,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="pyramid_1m"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteQuarterCNR3Way">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -553,7 +556,7 @@
             <property name="Shape" value="New"/>
             <property name="Model" value="quarter_inside_corner_3way"/>
             <property name="DescriptionKey" value="shapeQuarterCNR3WayGroupDesc"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcretePlateOffset">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -561,7 +564,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="tube_center_straight"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCornerstone">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -572,7 +575,7 @@
             <property name="Model" value="cornerstone"/>
             <property name="Texture" value="8,8,8,7,8,8"/>
             <property name="DescriptionKey" value="shapeCornerstoneGroupDesc"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteHalfCNRInside2">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -582,7 +585,7 @@
             <property name="Path" value="solid"/>
             <property name="Model" value="cupboard_corner"/>
             <property name="DescriptionKey" value="shapeHalfCNRInside2"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteSupport">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -594,7 +597,7 @@
             <property name="UseGlobalUV" value="Local"/>
             <property name="ImposterExclude" value="true"/>
             <property name="ImposterDontBlock" value="true"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCNRInside">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -603,7 +606,7 @@
             <property name="Shape" value="New"/>
             <property name="Path" value="solid"/>
             <property name="Model" value="ramp_inside_corner"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteTubeCenter">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -611,7 +614,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="tube_center"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteTubeCorner">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -619,7 +622,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="tube_corner"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteTunnelCenter">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -627,7 +630,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="tunnel_center"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteTunnelCorner">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -635,7 +638,7 @@
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Shape" value="New"/>
             <property name="Model" value="tunnel_corner"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminConcreteCTRQuarter">
             <property name="Extends" value="adminConcreteMaster"/>
@@ -644,16 +647,26 @@
             <property name="Shape" value="New"/>
             <property name="Path" value="solid"/>
             <property name="Model" value="pole_quarter_centered"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
+        </block>
+        <block name="adminConcreteEighth">
+            <property name="Extends" value="adminConcreteMaster"/>
+            <property name="CustomIcon" value="rConcreteEighth"/>
+            <property name="CustomIconTint" value="ff0000"/>
+            <property name="Shape" value="New"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="cube_eighth"/>
+            <property name="CreativeMode" value="None"/>
         </block>
         <block name="adminGlassBulletproofPlateCurved">
             <property name="Extends" value="adminGlassBulletproofMaster"/>
             <property name="Model" value="plate_corner_round_1m"/>
             <property name="CustomIcon" value="glassBulletproofPlateCurved"/>
             <property name="CustomIconTint" value="ff0000"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property class="RepairItems">
-                <property name="resourceConcreteMix" value="1"/></property>
+                <property name="resourceConcreteMix" value="1"/>
+            </property>
         </block>
         <block name="adminGlassBulletproofPlate">
             <property name="Extends" value="adminGlassBulletproofMaster"/>
@@ -661,9 +674,10 @@
             <property name="CustomIcon" value="glassBulletproofPlate"/>
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property class="RepairItems">
-                <property name="resourceConcreteMix" value="1"/></property>
+                <property name="resourceConcreteMix" value="1"/>
+            </property>
         </block>
         <block name="adminIronBars">
             <property name="Extends" value="ironBarsCentered"/>
@@ -671,74 +685,14 @@
             <property name="Model" value="iron_bars"/>
             <property name="CustomIconTint" value="ff0000"/>
             <property name="Place" value="TowardsPlacerInverted"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property class="RepairItems">
-                <property name="resourceConcreteMix" value="1"/></property>
-        </block>
-        <block name="adminBladeTrap">
-            <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="BladeTrap"/>
-            <property name="DisplayType" value="blockElectricalHardenedMulti" />
-            <property name="Material" value="Madmins"/>
-            <property name="Damage" value="1000"/>
-            <property name="DamageReceived" value="0.1"/>
-            <property name="BreakingPercentage" value="0.1"/>
-            <property name="BrokenPercentage" value="0.1"/>
-            <property name="ImpactSound" value="bladetrap_impact"/>
-            <property name="StartSound" value="bladetrap_startup"/>
-            <property name="StopSound" value="bladetrap_stop"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="RequiredPower" value="5"/>
-            <property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/>
-            <property name="HandleFace" value="Bottom"/>
-            <property name="CustomIcon" value="bladeTrap"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="DisplayType" value="blockElectricalMulti" />
-            <property name="MultiBlockDim" value="3,1,3"/>
-            <property name="ImposterExchange" value="imposterPlate" param1="111"/>
-            <property name="IsTerrainDecoration" value="true"/>
-            <property name="RuntimeSwitch" value="true" />
-            <property name="Group" value="Tools/Traps,Science"/>
-            <property name="ActivationDistance" value="6"/>
-            <property class="RepairItems">
-                <property name="resourceConcreteMix" value="1"/></property>
-            <property name="Stacknumber" value="100"/>
-            <property name="TakeDelay" value="1"/>
-            <property name="FilterTags" value="fdecor,felectrical,ftraps"/>
-        </block>
-        <block name="adminGeneratorbank">
-            <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="Generator"/>
-            <property name="DisplayType" value="blockHardened" />
-            <property name="Material" value="Madmins"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Mesh" value="models"/>
-            <property name="Path" value="solid"/>
-            <property name="Model" value="Entities/Electrical/generatorPrefab"/>
-            <property name="CustomIcon" value="generatorbank"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="HandleFace" value="Bottom"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="DescriptionKey" value="powerSourceDesc"/>
-            <property name="MaxFuel" value="6000"/>
-            <property name="OutputPerFuel" value="56250"/>
-            <property name="MaxPower" value="61250"/>
-            <property name="OutputPerStack" value="56250"/>
-            <property name="SlotItem" value="smallEngine"/>
-            <property name="DisplayType" value="blockElectrical" />
-            <property name="Group" value="Science"/>
-            <property class="RepairItems">
-                <property name="resourceConcreteMix" value="1"/></property>
-            <property name="Stacknumber" value="1"/>
-            <property name="TakeDelay" value="1"/>
+                <property name="resourceConcreteMix" value="1"/>
+            </property>
         </block>
         <block name="adminSinModWelcomeLobby">
             <property name="Material" value="Madmins"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property name="DisplayType" value="blockMulti" />
             <property name="MultiBlockDim" value="2,3,1"/>
             <property name="IsTerrainDecoration" value="true"/>
@@ -760,7 +714,7 @@
         </block>
         <block name="adminSinModLobbyRules">
             <property name="Material" value="Madmins"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property name="DisplayType" value="blockMulti" />
             <property name="MultiBlockDim" value="2,3,1"/>
             <property name="IsTerrainDecoration" value="true"/>
@@ -782,7 +736,7 @@
         </block>
         <block name="adminSinModServerCommands">
             <property name="Material" value="Madmins"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property name="DisplayType" value="blockMulti" />
             <property name="MultiBlockDim" value="2,3,1"/>
             <property name="IsTerrainDecoration" value="true"/>
@@ -806,7 +760,7 @@
             <property name="Class" value="Damage"/>
             <property name="CustomIcon" value="barbedWireSheet"/>
             <property name="CustomIconTint" value="ff0000"/>
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property name="Damage" value="1"/>
             <property name="DamageType" value="BarbedWire"/>
             <property name="Damage_received" value="6"/>
@@ -824,12 +778,13 @@
             <property name="Group" value="Tools/Traps,Science"/>
             <!--<property name="BuffsWhenWalkedOn" value="trapDamage1Trigger"/>-->
             <property class="RepairItems">
-                <property name="resourceScrapIron" value="1"/></property>
+                <property name="resourceScrapIron" value="1"/>
+            </property>
             <property name="FilterTags" value="fdecor,ftraps,fadmin"/>
             <property name="SortOrder1" value="70g0"/>
         </block>
         <block name="adminConcreteBarrier1">
-            <property name="CreativeMode" value="Dev"/>
+            <property name="CreativeMode" value="None"/>
             <property name="Extends" value="adminConcreteNoUpgradeMaster"/>
             <property name="CustomIcon" value="concreteBarrier1"/>
             <property name="CustomIconTint" value="ff0000"/>
@@ -844,173 +799,15 @@
             <property name="SortOrder2" value="0051"/>
             <!-- SortDoors -->
         </block>
-        <block name="AdminMotionsensor">
-            <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="MotionSensor"/>
-            <property name="Material" value="Madmins"/>
-            <property name="CustomIcon" value="motionsensor"/>
+        <block name="adminConcreteBlockVariantHelper">
+            <property name="Extends" value="adminConcreteBlock"/>
+            <property name="CustomIcon" value="rConcreteBlock"/>
             <property name="CustomIconTint" value="ff0000"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Mesh" value="models"/>
-            <property name="Model" value="Entities/Electrical/motion_sensorPrefab"/>
-            <property name="OnlySimpleRotations" value="true"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="RequiredPower" value="5"/>
-            <property name="DisplayType" value="blockElectrical" />
-            <property name="YawRange" value="90"/>
-            <property name="PitchRange" value="90"/>
-            <property name="Group" value="Science"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="2"/>
-                <property name="resourceElectricParts" value="1"/></property>
-            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-            <drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
-            <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
-            <drop event="Destroy" count="0"/>
-            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-            <property name="EconomicValue" value="135"/>
-            <property name="PickupJournalEntry" value="cameraTip,triggerDelayDurationTip,passthroughTriggeringTip"/>
-            <property name="FilterTags" value="fdecor,felectrical,ftraps"/>
-            <property name="SortOrder1" value="70a0"/>
-        </block>
-        <block name="adminElectrictimerrelay">
             <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="TimerRelay"/>
-            <property name="Material" value="Madmins"/>
-            <property name="CustomIcon" value="electrictimerrelay"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Mesh" value="models"/>
-            <property name="Model" value="Entities/Electrical/relay_timerPrefab"/>
-            <property name="HandleFace" value="Bottom"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="PoweredType" value="Constant"/>
-            <property name="RequiredPower" value="0"/>
-            <property name="DisplayType" value="blockElectrical" />
-            <property name="Group" value="Science"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="2"/>
-                <property name="resourceElectricParts" value="3"/></property>
-            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-            <drop event="Harvest" name="resourceElectricParts" count="0,3" tag="salvageHarvest"/>
-            <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
-            <drop event="Destroy" count="0"/>
-            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-            <property name="TakeDelay" value="5"/>
-            <property name="EconomicValue" value="119"/>
-            <property name="FilterTags" value="fdecor,felectrical"/>
-            <property name="SortOrder1" value="70a0"/>
-        </block>
-        <block name="adminSpeaker">
-            <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="Speaker"/>
-            <property name="CustomIcon" value="speaker"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="PlaySound" value="alarm1"/>
-            <property name="Material" value="Madmins"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="Entities/Electrical/loudspeakerPrefab"/>
-            <property name="HandleFace" value="South"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="LootList" value="42"/>
-            <property name="RequiredPower" value="5"/>
-            <property name="DisplayType" value="blockElectrical" />
-            <property name="Group" value="Science"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="3"/>
-                <property name="resourceElectricParts" value="2"/></property>
-            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-            <drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
-            <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
-            <drop event="Destroy" count="0"/>
-            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-            <property name="TakeDelay" value="5"/>
-            <property name="EconomicValue" value="72"/>
-            <property name="FilterTags" value="fdecor,felectrical"/>
-            <property name="SortOrder1" value="70a0"/>
-        </block>
-        <block name="adminLoudspeaker">
-            <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="SpeakerTrader"/>
-            <property name="CustomIcon" value="loudspeaker"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="IndexName" value="TraderOnOff"/>
-            <property name="OpenSound" value="trader_announce_open"/>
-            <property name="CloseSound" value="trader_announce_closed"/>
-            <property name="WarningSound" value="trader_announce_closing"/>
-            <property name="CreativeMode" value="Dev"/>
-            <property name="DisplayType" value="blockElectricalHardened" />
-            <property name="Material" value="Madmins"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="Entities/Electrical/loudspeakerPrefab"/>
-            <property name="HandleFace" value="South"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="LootList" value="42"/>
-            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-            <drop event="Harvest" name="resourceElectricParts" count="2,4" tag="salvageHarvest"/>
-            <drop event="Destroy" count="0"/>
-            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-            <property name="Group" value="Science"/>
-            <property name="FilterTags" value="fdecor,felectrical"/>
-            <property name="SortOrder1" value="70a0"/>
-        </block>
-        <block name="adminElectricwirerelay">
-            <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="Powered"/>
-            <property name="Material" value="Madmins"/>
-            <property name="CustomIcon" value="electricwirerelay"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Mesh" value="models"/>
-            <property name="Model" value="Entities/Electrical/relayPrefab"/>
-            <property name="HandleFace" value="Bottom"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="DisplayType" value="blockElectrical" />
-            <property name="RequiredPower" value="1"/>
-            <property name="Group" value="Science"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="1"/></property>
-            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-            <drop event="Harvest" name="resourceElectricParts" count="1" prob="0.2" tag="salvageHarvest"/>
-            <drop event="Destroy" name="resourceScrapIron" count="1,5" prob="1"/>
-            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-            <property name="TakeDelay" value="5"/>
-            <property name="EconomicValue" value="28"/>
-            <property name="FilterTags" value="fdecor,felectrical,fadmin"/>
-            <property name="SortOrder1" value="70a0"/>
-        </block>
-        <block name="adminSwitch">
-            <property name="CreativeMode" value="Dev"/>
-            <property name="Class" value="Switch"/>
-            <property name="Material" value="Madmins"/>
-            <property name="CustomIcon" value="switch"/>
-            <property name="CustomIconTint" value="ff0000"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Mesh" value="models"/>
-            <property name="Model" value="Entities/Electrical/power_switchPrefab"/>
-            <property name="HandleFace" value="South"/>
-            <property name="ImposterDontBlock" value="true"/>
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <property name="RequiredPower" value="0"/>
-            <property name="DisplayType" value="blockElectrical" />
-            <property name="TriggerType" value="Switch"/>
-            <property name="Group" value="Science"/>
-            <property class="RepairItems">
-                <property name="resourceForgedIron" value="2"/></property>
-            <drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
-            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-            <property name="TakeDelay" value="5"/>
-            <property name="EconomicValue" value="50"/>
-            <property name="FilterTags" value="fdecor,felectrical,fadmin"/>
-            <property name="SortOrder1" value="70a0"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="adminConcreteBlock,adminConcreteRamp,adminConcreteArch,adminConcreteArrowSlitHalf,adminConcreteCNRFull,adminConcreteCNRInside,adminConcreteCNRRamp,adminConcreteCNRRampFiller,adminConcreteCNRRound,adminConcreteCNRRoundTop,adminConcreteCornerstone,adminConcreteCTRPlate,adminConcreteCTRpole,adminConcreteCTRQuarter,adminConcreteEighth,adminConcreteGable1m,adminConcreteGableInvertedHalf,adminConcreteGableInvertedQuarter,adminConcreteGableInvertedSteep,adminConcreteGableQuarter,adminConcreteHalf,adminConcreteHalfCentered,adminConcreteHalfCNRInside2,adminConcreteHalfPlate,adminConcretePillar100,adminConcretePillar100Cap,adminConcretePillar50,adminConcretePlate,adminConcretePlateOffset,adminConcretePole,adminConcretePoleSCTR,adminConcretePyramid,adminConcretePyramid1m,adminConcreteQuarter,adminConcreteQuarterCNR,adminConcreteQuarterCNR3Way,adminConcreteQuarterSCtr,adminConcreteQuarterTeeSCtr,adminConcreteStairs25,adminConcreteStairs50,adminConcreteTubeCenter,adminConcreteTubeCorner,adminConcreteTunnelCenter,adminConcreteTunnelCorner,adminConcreteHalfRampStairs50,adminConcreteHalfRampStairs50Filler,adminConcreteStairs25CornerCNR,adminConcreteStairsFilledRailingLeft,adminConcreteStairsFilledRailingRight,adminConcreteSupport,adminConcreteWedge,adminConcreteWedgeCNRInsideBottom,adminConcreteWedgeCNRInsideSteepBase,adminConcreteWedgeCNRInsideSteepTop,adminConcreteWedgeCNRInsideTop,adminConcreteWedgeCNRSteepBase,adminConcreteWedgeCNRSteepTop,adminConcreteWedgeIncline,adminConcreteWedgeStairs,adminConcreteWedgeTip,adminConcreteWedgeTipCNRFullBottom,adminConcreteWedgeTipCNRFullTop,adminConcreteWedgeTipStairs,adminGlassBulletproofPlateCurved,adminGlassBulletproofPlate,adminIronBars,adminSinModWelcomeLobby,adminSinModLobbyRules,adminSinModServerCommands,adminBarbedWireSheet,adminConcreteBarrier1"/>
         </block>
     </append>
 </SinModAdmin>
