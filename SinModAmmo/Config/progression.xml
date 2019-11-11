@@ -1,15 +1,15 @@
-<Config>
+<SinModAmmo>
+    <append xpath="/progression/skills">
+        <skill name="skillAmmoDismantle" parent="attBooks" name_key="perkAmmoDismantle0Name" desc_key="perkAmmoDismantle0Desc" long_desc_key="perkBookGroupLongDesc" icon="ui_game_symbol_scrap">
+            <effect_group/>
+        </skill>
+    </append>
+
     <append xpath="/progression/perks">
-        <perk name="perkAmmoDismantling" parent="skillCraftsmanship" max_level="1" name_key="Ammo Dismantling" desc_key="Unlocks the ability to dismantle ammo at workbench." icon="ui_game_symbol_scrap">
-            <level_requirements level="1">
-                <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/>
-            </level_requirements>
+        <perk name="perkAmmoDismantle" parent="skillAmmoDismantle" max_level="1" base_skill_point_cost="0" desc_key="Unlocks the ability to dismantle ammo at workbench." long_desc_key="perkAmmoDismantleLongDesc" icon="ui_game_symbol_scrap">
             <effect_group>
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="dismantle9mmBulletBall,dismantle9mmBulletAP,dismantle9mmBulletHP,dismantle44MagnumBulletBall,dismantle44MagnumBulletHP,dismantle44MagnumBulletAP,dismantle762mmBulletBall,dismantle762mmBulletHP,dismantle762mmBulletAP,dismantleShotgunShell,dismantleShotgunSlug,dismantleShotgunBreachingSlug"/>
-            </effect_group>
-            <effect_group>
-                <effect_description level="1" desc_base="Disassemble all ammo at workbench"/>
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="dismantle9mmBulletBall,dismantle9mmBulletAP,dismantle9mmBulletBallHP,dismantle44MagnumBulletBall,dismantle44MagnumBulletAP,dismantle44MagnumBulletHP,dismantle762mmBulletBall,dismantle762mmBulletAP,dismantle762mmBulletHP,dismantleShotgunShell,dismantleShotgunSlug,dismantleShotgunBreachingSlug"/>
             </effect_group>
         </perk>
     </append>
-</Config>
+</SinModAmmo>

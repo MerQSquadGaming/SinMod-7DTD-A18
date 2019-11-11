@@ -5,6 +5,7 @@
     </insertAfter>
 
     <append xpath="/blocks">
+        <!--SinMod Car Respawner-->
         <block name="carRespawner">
             <property name="CreativeMode" value="None"/>
             <property name="Class" value="PlantGrowing" />

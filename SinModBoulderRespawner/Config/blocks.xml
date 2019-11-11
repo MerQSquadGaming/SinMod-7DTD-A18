@@ -1,7 +1,7 @@
 <SinModBoulderRespawner>
 
 	<append xpath="/blocks">
-    
+    <!--SinMod boulder respawner-->
     <block name="SpawnBoulder Master">
     	<property name="CreativeMode" value="None"/>
       <property name="Material" value="Mconcrete"/>

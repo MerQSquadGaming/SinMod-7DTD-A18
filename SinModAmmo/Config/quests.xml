@@ -1,4 +1,4 @@
-<configs>
+<SinModAmmo>
     <append xpath="/quests" >
         <!-- Ammo Dismantling -->
         <quest id="9mmBulletBallDismantle" >
@@ -159,4 +159,4 @@
             <reward type="Item" id="resourceScrapPolymers" value="10" />
         </quest>
     </append>
-</configs>
+</SinModAmmo>
