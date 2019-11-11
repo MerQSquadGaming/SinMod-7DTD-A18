@@ -7,13 +7,21 @@
 2. Go to your Steam application and right click on 7 Days to Die.<br>
 3. Select <Properties> and choose the <Local Files> tab.<br>
 4. Select <Browse Local Files>, this should open a seperate window where your game in installed.<br>
-5. Open the SinMod-master.zip file and drag and drop the <Mods> folder directly in here.<br>
-6. In the Game Directory open Data>Config and drag all the files from the SinMod Data/Config into this folder.<br>
+5. Open the SinMod-master.zip file and drag and drop the modlets into the <Mods> folder. If you don't have a <Mods> folder you'll need to creat one.<br>
 
 
 <h2> Contents</h2>
 
 * Custom Starter Classes <Hitman, Bruiser, Survivalist, Conartist, Engineer>
-* 50+ new foods and drinks
-* Custom Zombies
-* Special Admin Blocks for building in game events and lobbies (can only be broke with Dev: Digger)
+* Added x3 slot to the forge input.
+* Ability to dismantle ammo after finding the book to unlock.
+* Auto respawn Cars and Boulders.
+* Ablity to craft Jail door and Jail bars.
+* Added Donor Crate to thank donors for their support.
+* Custom SinMod Game Menu.
+* Stack increase.
+* Added custom horns for vehicles.
+* Added Working kitchen, and Working Sinks to get clean drinking water.
+* Custom Zombies.
+* Special Admin Blocks for building in game events and lobbies (can only be broke with Dev: Digger).
+* More to Come......
