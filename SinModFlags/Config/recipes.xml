@@ -6,50 +6,14 @@
 			<ingredient name="resourceDuctTape" count="1"/>
 			<ingredient name="resourceGlue" count="1"/>
 		</recipe>
-		<recipe name="flagCanvas" count="1" craft_area="workbench" >
+		<recipe name="flagMaterial" count="1" craft_area="workbench" >
 			<ingredient name="resourcePaint" count="1"/>
 			<ingredient name="resourceGlue" count="1"/>
 			<ingredient name="resourceCloth" count="5"/>
 		</recipe>
-		<recipe name="FlagUSA" count="1" craft_area="workbench" >
+		<recipe name="flagBlockVariantHelper" count="1" craft_area="workbench" >
 			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
+			<ingredient name="flagMaterial" count="1"/>
 		</recipe>
-		<recipe name="FlagRepo" count="1" craft_area="workbench" >
-			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
-		</recipe>		
-		<recipe name="FlagInfection" count="1" craft_area="workbench" >
-			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
-		</recipe>
-		<recipe name="FlagRadiation" count="1" craft_area="workbench" >
-			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
-		</recipe>		
-		<recipe name="FlagSheldon" count="1" craft_area="workbench" >
-			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
-		</recipe>		
-		<recipe name="FlagGuppy" count="1" craft_area="workbench" >
-			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
-		</recipe>
-		<recipe name="FlagSphereii" count="1" craft_area="workbench" >
-			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
-		</recipe>	
-		<recipe name="FlagLooted" count="1" craft_area="workbench" >
-			<ingredient name="flagPole" count="1"/>
-			<ingredient name="flagCanvas" count="1"/>
-			<ingredient name="resourcePaint" count="5"/>
-		</recipe>		
     </append>
 </SinModFlags>

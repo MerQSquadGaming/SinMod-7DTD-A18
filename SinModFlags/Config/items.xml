@@ -13,9 +13,9 @@
             <property name="CreativeMode" value="Player"/>
         </item>
 
-        <item name="flagCanvas">
+        <item name="flagMaterial">
             <property name="HoldType" value="45"/>
-            <property name="CustomIcon" value="flagCanvas" />
+            <property name="CustomIcon" value="flagMaterial" />
             <property name="Meshfile" value="Items/Misc/sackPrefab"/>
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
             <property name="Material" value="Mcloth"/>

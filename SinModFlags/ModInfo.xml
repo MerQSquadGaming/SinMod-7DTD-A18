@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="SinModFlags" />
-		<Description value="Flags using cloth motion to simulate wind effects" />
-		<Author value="Xyth edited by SinisterMind81" />
-		<Version value="2.1.0" />
+		<Description value="Custom Flags and Banners using animation and player craftable" />
+		<Author value="SinisterMind81" />
+		<Version value="1.3.1" />
 		<Website value="http://www.merqsquad.com" />
 	</ModInfo>
 </xml>
