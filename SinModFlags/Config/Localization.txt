@@ -8,6 +8,7 @@ flagDog,block,Flag,New,Dog Flag Landclaim
 flagSinMod,block,Flag,New,SinMod Flag Landclaim
 flagViking,block,Flag,New,Viking Flag Landclaim
 flagCroatia,block,Flag,New,Croatia Flag Landclaim
+flagSniper,block,Flag,New,Sniper Flag Landclaim
 flagBlockVariantHelper,block,Flag,New,Flag Selector Landclaim
 
 
