@@ -1,0 +1,7 @@
+<SinModSuperTools>
+    <append xpath="/lootcontainers/lootgroup[@name='rareTools']">
+        <item name="gunSuperNailgun" prob="0.2"/>
+        <item name="meleeSuperChainsaw" prob="0.2"/>
+        <item name="meleeSuperAuger" prob="0.2"/>
+    </append>
+</SinModSuperTools>

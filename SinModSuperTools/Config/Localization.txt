@@ -1,0 +1,11 @@
+﻿Key,Source,Context,Changes,English
+
+gunSuperNailgun,items,Tool,New,Super Nailgun,,
+gunSuperNailgunDesc,items,Tool,New,The ultimate tool for repairing blocks,,
+
+meleeSuperAuger,items,Tool,New,Super Auger,,
+meleeSuperAugerDesc,items,Tool,New,The ultimate tool for busting up ground terrain and blocks,,
+
+meleeSuperChainsaw,items,Tool,New,Super Chainsaw,,
+meleeSuperChainsawDesc,items,Tool,New,The ultimate tool for busting up wood,,
+
