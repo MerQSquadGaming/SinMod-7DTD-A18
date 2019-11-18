@@ -9,3 +9,9 @@ meleeSuperAugerDesc,items,Tool,New,The ultimate tool for busting up ground terra
 meleeSuperChainsaw,items,Tool,New,Super Chainsaw,,
 meleeSuperChainsawDesc,items,Tool,New,The ultimate tool for busting up wood,,
 
+autoMinerOff,blocks,Workstation,KgNone,Auto Miner (Off),,,,
+autoMinerOffDesc,blocks,Workstation,KgNone,Needs Fuel,,,,
+autoMinerOn,blocks,Workstation,KgNone,Auto Miner (On),,,,
+autoMinerOnDesc,blocks,Workstation,KgNone,Running,,,,
+autoMinerCompartment,blocks,Workstation,KgNone,Auto Miner Compartment,,,,
+autoMinerCompartmentDesc,blocks,Workstation,KgNone,Extendable compartment for storing resources,,,,
