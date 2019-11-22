@@ -1,14 +1,21 @@
 <SinModStackIncrease>
-<!--
-    <set xpath="/items/item/property[@name='Stacknumber']/@value">1000</set>
 
-    <remove xpath="/items/item/property[@name='Stacknumber']"/>
-    <append xpath="/items/item" >
-        <property name="Stacknumber" value="1000"/>
-    </append>
--->
+<!--<set xpath="/items/item/property[@name='Stacknumber' and (contains(@value,'6000'))]/@value">10000</set>
 
-<set xpath="/items/item/property[@name='Stacknumber' and @value &gt; 2 and @value &lt; 1000 ]/@value">5000</set>
+<set xpath="/items/item/property[@name='Stacknumber' and not (contains(@value,'1'))]/@value">5000</set>-->
+
+<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">5000</set>
+
+<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">10000</set>
+
+<set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'casino')]/property[@name='Stacknumber']/@value">30000</set>
+
 </SinModStackIncrease>
-
-
