@@ -73,7 +73,7 @@
 
                 <passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.6"/>
                 <passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".6"/>
-                <passive_effect name="DegradationMax" operation="base_set" value="1000" tags="nailgun"/>
+                <passive_effect name="DegradationMax" operation="base_set" value="25000" tags="nailgun"/>
                 <passive_effect name="DegradationPerUse" operation="base_set" value=".5" tags="nailgun"/>
                 <passive_effect name="ModSlots" operation="base_set" value="0"/>
             </effect_group>
@@ -118,7 +118,7 @@
             </property>
 
             <effect_group name="meleeToolAuger" tiered="false">
-                <passive_effect name="MaxRange" operation="base_set" value="4.35"/>
+                <passive_effect name="MaxRange" operation="base_set" value="4"/>
                 <passive_effect name="BlockRange" operation="base_set" value="6"/>
                 <passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
                 <passive_effect name="DamageFalloffRange" operation="base_set" value="3"/>
@@ -132,13 +132,13 @@
                 <!-- tier bonus -->
 
                 <passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
-                <passive_effect name="BlockDamage" operation="base_set" value="100"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="125"/>
                 <passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
                 <!-- random BlockDmg -->
-                <passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+                <passive_effect name="BlockDamage" operation="perc_add" value="5"/>
                 <!-- tier bonus -->
 
-                <passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
+                <passive_effect name="DegradationMax" operation="perc_add" value="-.5,.5" tags="perkMiner69r"/>
                 <!-- random DegMax -->
                 <passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
                 <!-- random APM -->
@@ -168,7 +168,7 @@
                 <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
                 <passive_effect name="WeaponHandling" operation="base_set" value="5"/>
 
-                <passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
+                <passive_effect name="DegradationMax" operation="base_set" value="25000" tags="perkMiner69r"/>
                 <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
             </effect_group>
         </item>
@@ -208,7 +208,6 @@
                 <property name="SupportHarvesting" value="true"/>
                 <property name="ToolCategory.harvestingTools" value="1" param1="1"/>
             </property>
-
             <effect_group name="meleeToolChainsaw" tiered="false">                <!-- meleeToolChainsaw -->
                 <passive_effect name="MaxRange" operation="base_set" value="2.35"/>
                 <passive_effect name="BlockRange" operation="base_set" value="4"/>
@@ -263,7 +262,7 @@
                 <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
                 <passive_effect name="WeaponHandling" operation="base_set" value="5"/>
 
-                <passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
+                <passive_effect name="DegradationMax" operation="base_set" value="25000" tags="perkMiner69r"/>
                 <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
             </effect_group>
         </item>
