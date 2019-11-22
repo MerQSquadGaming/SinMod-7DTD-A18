@@ -6,6 +6,8 @@
 
 <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">5000</set>
 
+<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">20000</set>
+
 <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">10000</set>
 
 <set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">500</set>
