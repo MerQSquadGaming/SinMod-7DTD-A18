@@ -7,7 +7,7 @@
 
 			<sprite style="compass.window.compass.background"/>
 
-			<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
+			<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0">
 
 			</texture>
 
