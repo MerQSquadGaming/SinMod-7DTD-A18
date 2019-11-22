@@ -1,131 +1,283 @@
 <SinModAmmo>
     <append xpath="/items">
+
+        <!--<item name="resourceRockSmallBundle">
+	<property name="CustomIcon" value="resourceRockSmall"/><property name="ItemTypeIcon" value="treasure"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="UnlockedBy" value="perkArtOfMiningPallets"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Resources"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceRockSmall"/>
+		<property name="Create_item_count" value="6000"/>
+	</property>
+</item>-->
+
         <!--SinMod Ammo Dismantling-->
-        <item name="dismantle9mmBulletBall">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle9mmBulletBall" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle9mmBulletBall">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="9mmBulletBallDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,10,10"/>
+                <!--
+		This can spawn multiple item types and quantities. No randomness.
+		<property name="Create_item" value="ammo9mmBulletBall,drinkCanRiverWater"/>
+		<property name="Create_item_count" value="50,5"/>
+		-->
             </property>
         </item>
-        <item name="dismantle9mmBulletAP">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle9mmBulletAP" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle9mmBulletAP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="9mmBulletAPDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,20,10"/>
             </property>
         </item>
-        <item name="dismantle9mmBulletHP">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle9mmBulletHP" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle9mmBulletHP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="9mmBulletHPDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="20,10,10"/>
             </property>
         </item>
-        <item name="dismantle44MagnumBulletBall">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle44MagnumBulletBall" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle44MagnumBulletBall">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="44MagnumBulletBallDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,30,10"/>
             </property>
         </item>
-        <item name="dismantle44MagnumBulletHP">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle44MagnumBulletHP" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle44MagnumBulletHP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="44MagnumBulletHPDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="20,30,10"/>
             </property>
         </item>
-        <item name="dismantle44MagnumBulletAP">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle44MagnumBulletAP" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle44MagnumBulletAP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="44MagnumBulletAPDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,50,10"/>
             </property>
         </item>
-        <item name="dismantle762mmBulletBall">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle762mmBulletBall" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle762mmBulletBall">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="762mmBulletBallDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,30,10"/>
             </property>
         </item>
-        <item name="dismantle762mmBulletHP">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle762mmBulletHP" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle762mmBulletHP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="762mmBulletHPDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="20,30,10"/>
             </property>
         </item>
-        <item name="dismantle762mmBulletAP">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantle762mmBulletAP" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantle762mmBulletAP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="762mmBulletAPDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,50,10"/>
             </property>
         </item>
-        <item name="dismantleShotgunShell">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantleShotgunShell" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantleShotgunShell">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="ShotgunShellDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+                <property name="Create_item_count" value="10,20,10"/>
             </property>
         </item>
-        <item name="dismantleShotgunSlug">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantleShotgunSlug" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantleShotgunSlug">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="ShotgunSlugDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="30,30,10"/>
             </property>
         </item>
-        <item name="dismantleShotgunBreachingSlug">
-            <property name="Extends" value="challengeQuestMaster" />
-            <property name="CustomIcon" value="dismantleShotgunBreachingSlug" />
-            <property name="DescriptionKey" value="dismantleammo"/>
+        <item name="ammoDismantleShotgunBreachingSlug">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
             <property class="Action0">
-                <property name="QuestGiven" value="ShotgunBreachingSlugDismantle" />
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceForgedSteel,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="40,20,40,10"/>
             </property>
-        </item>
-        <item name="bookAmmoDismantle">
-            <property name="Extends" value="schematicMaster" />
-            <property name="CustomIcon" value="bookAmmoDismantle" />
-            <property name="DescriptionKey" value="dismantleammo"/>
-            <property name="Stacknumber" value="20"/>
-            <property name="EconomicValue" value="500"/>
-            <property name="Unlocks" value="perkAmmoDismantle"/>
-            <property class="Action0">
-                <property name="Class" value="Eat"/>
-                <property name="Delay" value="1.0"/>
-                <property name="Use_time" value="..."/>
-                <property name="Sound_start" value="read_skillbook"/>
-                <property name="Sound_in_head" value="true"/>
-            </property>
-            <effect_group tiered="false">
-
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAmmoDismantle" level="1"/>
-                <!-- level="-1" sets a perk to max level -->
-
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkAmmoDismantle" level="1">
-                    <requirement name="PerksUnlocked" skill_name="skillAmmoDismantle" operation="GTE" value="1"/>
-                </triggered_effect>
-
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="read_skillbook_final" play_in_head="true">
-                    <requirement name="PerksUnlocked" skill_name="skillAmmoDismantle" operation="GTE" value="1"/>
-                </triggered_effect>
-            </effect_group>
         </item>
     </append>
 </SinModAmmo>

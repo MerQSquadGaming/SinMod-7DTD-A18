@@ -1,5 +1,0 @@
-<SinModAmmo>
-    <insertAfter xpath="/lootcontainers/lootgroup[@name='perkBooks']/item[@name='bookWasteTreasuresWater']">
-    <item name="bookAmmoDismantle" />
-    </insertAfter>
-</SinModAmmo>

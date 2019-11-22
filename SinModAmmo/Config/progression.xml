@@ -1,15 +1,29 @@
 <SinModAmmo>
-    <append xpath="/progression/skills">
-        <skill name="skillAmmoDismantle" parent="attBooks" name_key="perkAmmoDismantle0Name" desc_key="perkAmmoDismantle0Desc" long_desc_key="perkBookGroupLongDesc" icon="ui_game_symbol_scrap">
-            <effect_group/>
-        </skill>
+    <append xpath="/progression/perks/perk[@name='perkPistolPeteHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle9mmBulletHP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkPistolPeteAPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle9mmBulletAP
     </append>
 
-    <append xpath="/progression/perks">
-        <perk name="perkAmmoDismantle" parent="skillAmmoDismantle" max_level="1" base_skill_point_cost="0" desc_key="Unlocks the ability to dismantle ammo at workbench." long_desc_key="perkAmmoDismantleLongDesc" icon="ui_game_symbol_scrap">
-            <effect_group>
-                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="dismantle9mmBulletBall,dismantle9mmBulletAP,dismantle9mmBulletBallHP,dismantle44MagnumBulletBall,dismantle44MagnumBulletAP,dismantle44MagnumBulletHP,dismantle762mmBulletBall,dismantle762mmBulletAP,dismantle762mmBulletHP,dismantleShotgunShell,dismantleShotgunSlug,dismantleShotgunBreachingSlug"/>
-            </effect_group>
-        </perk>
+    <append xpath="/progression/perks/perk[@name='perkEnforcerAPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle44MagnumBulletAP
     </append>
+    <append xpath="/progression/perks/perk[@name='perkEnforcerHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle44MagnumBulletHP
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkSniperAPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle762mmBulletAP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkSniperHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle762mmBulletHP
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkShotgunMessiahSlugs']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantleShotgunSlug
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkShotgunMessiahBreachingSlugs']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantleShotgunBreachingSlug
+    </append>
+
+
+
+
+
+
+
+
 </SinModAmmo>
