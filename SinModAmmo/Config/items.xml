@@ -388,6 +388,15 @@
                 </triggered_effect>
             </effect_group>
         </item>
+        <item name="ammoBundleShotgunShellINC">
+            <property name="Extends" value="ammoBundle9mmBulletBall"/>
+            <property name="CustomIcon" value="ammoShotgunShellINC"/>
+            <property name="EconomicValue" value="1400"/>
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShellINC"/>
+                <property name="Create_item_count" value="100"/>
+            </property>
+        </item>
         <item name="ammoDismantleShotgunShell">
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
