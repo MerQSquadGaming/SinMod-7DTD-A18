@@ -14,3 +14,16 @@ ammoDismantle762mmBulletAP,items,Ammo,New,Dismantled - 762mm AP Bullets,,
 ammoDismantleShotgunShell,items,Ammo,New,Dismantled - Shotgun Shells,,
 ammoDismantleShotgunSlug,items,Ammo,New,Dismantled - Shotgun Slugs,,
 ammoDismantleShotgunBreachingSlug,items,Ammo,New,Dismantled - Shotgun Breaching Slug,,
+
+
+
+resourceEmptyFireTip,items,Item Gun,,Empty Incendiary Tip,,
+resourceEmptyFireTipDesc,items,Item Gun,,These bullet tips have been hollowed out to allow to be filled with fire compound for incendiary rounds.,,
+resourceFireTip,items,Item Gun,,Filled Incendiary Tip,,
+resourceFireTipDesc,items,Item Gun,,These bullet tips have hav been filled with fire compound for incendiary rounds.,,
+
+ammo9mmBulletINC,items,Item Gun,,9mm Incendiary Bullet,,
+ammo44MagnumBulletINC,items,Item Gun,,44. Magnum Incendiary Bullet,,
+ammo762mmBulletINC,items,Item Gun,,762mm Incendiary Bullet,,
+ammoShotgunShellINC,items,Item Gun,,Shotgun Incendiary Shell,,
+ammoBulletINCDesc,items,Item Gun,,These bullets have been modified to ignite the target on fire on impact.,,
