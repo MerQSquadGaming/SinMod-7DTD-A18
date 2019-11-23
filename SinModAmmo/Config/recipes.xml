@@ -88,7 +88,7 @@
         <recipe name="ammoDismantleShotgunBreachingSlug" count="1" craft_area="workbench" tags="learnable">
             <ingredient name="ammoShotgunBreachingSlug" count="10"/>
         </recipe>
-        <recipe name="ammoBundle762mmBulletINC" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+        <recipe name="ammoBundleShotgunShellINC" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
             <ingredient name="resourceFireTip" count="160"/>
             <ingredient name="resourceClayLump" count="160"/>
             <ingredient name="resourceGunPowder" count="320"/>
