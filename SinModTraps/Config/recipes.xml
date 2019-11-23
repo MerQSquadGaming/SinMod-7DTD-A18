@@ -1,0 +1,25 @@
+<SinModTraps>
+    <append xpath="/recipes">
+        <!-- Expanded Traps Mod -->
+        <recipe name="trapAdhesive" count="1" scrapable="False">
+            <ingredient name="resourceWood" count="4"/>
+            <ingredient name="resourceGlue" count="4"/>
+        </recipe>
+        <recipe name="trapSteelFireSpike" count="1" scrapable="False">
+            <ingredient name="resourceForgedSteel" count="8" />
+            <ingredient name="ammoGasCan" count="10" />
+            <ingredient name="resourceGunPowder" count="4"/>
+        </recipe>
+        <recipe name="trapFire" count="2" scrapable="False">
+            <ingredient name="resourceForgedSteel" count="8" />
+            <ingredient name="toolCookingGrill" count="1" />
+            <ingredient name="ammoGasCan" count="1" />
+            <ingredient name="resourceGunPowder" count="4"/>
+        </recipe>
+        <recipe name="trapGasCan" count="1" scrapable="False">
+            <ingredient name="ammoGasCan" count="4"/>
+            <ingredient name="resourceGunPowder" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="8"/>
+        </recipe>
+    </append>
+</SinModTraps>
