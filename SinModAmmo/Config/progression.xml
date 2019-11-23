@@ -25,7 +25,7 @@
     </append>
     <append xpath="/progression/perks/perk[@name='perkShotgunMessiahBreachingSlugs']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantleShotgunBreachingSlug
     </append>
-    <append xpath="/progression/perks/perk[@name='perkShotgunMessiahComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoShotgunShellINC,ammoDismantleShotgunINC,ammoBundleShotgunINC
+    <append xpath="/progression/perks/perk[@name='perkShotgunMessiahComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoShotgunShellINC,ammoDismantleShotgunShellINC,ammoBundleShotgunShellINC
     </append>
 
 

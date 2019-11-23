@@ -113,7 +113,7 @@
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="close_garbage"/>
                 <property name="Create_item" value="resourceFireTip,resourceGunPowder,resourceBulletCasing"/>
-                <property name="Create_item_count" value="10,10,10"/>
+                <property name="Create_item_count" value="10,20,10"/>
             </property>
         </item>
 
@@ -347,7 +347,7 @@
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="close_garbage"/>
                 <property name="Create_item" value="resourceFireTip,resourceGunPowder,resourceBulletCasing"/>
-                <property name="Create_item_count" value="10,30,10"/>
+                <property name="Create_item_count" value="10,40,10"/>
             </property>
         </item>
 
@@ -435,8 +435,8 @@
                 <property name="Delay" value="0"/>
                 <property name="Use_time" value="0"/>
                 <property name="Sound_start" value="close_garbage"/>
-                <property name="Create_item" value="resourceFireTip,resourceClayLump,resourceGunPowder,ammoGasCan,resourceScrapPolymers"/>
-                <property name="Create_item_count" value="20,20,40,10,10"/>
+                <property name="Create_item" value="resourceFireTip,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="20,20,40,10"/>
             </property>
         </item>
         <item name="ammoDismantleShotgunSlug">

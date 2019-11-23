@@ -96,7 +96,7 @@
         </recipe> 
 
 
-        <recipe name="resourceEmptyFireTip" count="1" craft_area="forge" tags="forgeCrafting">
+        <recipe name="resourceEmptyFireTip" count="1" material_based="true" craft_area="forge" tags="forgeCrafting">
             <ingredient name="unit_lead" count="3"/>
             <ingredient name="unit_clay" count="1"/>
         </recipe>
