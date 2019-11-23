@@ -35,7 +35,7 @@ ammoBundleShotgunShellINC,items,Ammo,New,Box of INC Shotgun Shells (100),,
 resourceEmptyFireTip,items,Item Gun,,Empty Incendiary Tip,,
 resourceEmptyFireTipDesc,items,Item Gun,,These bullet tips have been hollowed out to allow to be filled with fire compound for incendiary rounds.,,
 resourceFireTip,items,Item Gun,,Filled Incendiary Tip,,
-resourceFireTipDesc,items,Item Gun,,These bullet tips have hav been filled with fire compound for incendiary rounds.,,
+resourceFireTipDesc,items,Item Gun,,These bullet tips have been filled with fire compound for incendiary rounds.,,
 
 
 

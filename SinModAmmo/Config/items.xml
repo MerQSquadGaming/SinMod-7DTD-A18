@@ -5,6 +5,7 @@
             <property name="EconomicValue" value="14"/>
             <property name="Stacknumber" value="250" />
             <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
             <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
             <effect_group name="Base Effects" tiered="false">
                 <passive_effect name="EntityDamage" operation="base_set" value="20"/>
@@ -27,6 +28,7 @@
             <property name="Extends" value="ammoBundle9mmBulletBall"/>
             <property name="CustomIcon" value="ammo9mmBulletINC"/>
             <property name="EconomicValue" value="1400"/>
+            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
             <property class="Action0">
                 <property name="Create_item" value="ammo9mmBulletINC"/>
                 <property name="Create_item_count" value="100"/>
@@ -57,6 +59,8 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
+
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -78,6 +82,7 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -99,6 +104,7 @@
             <property name="CustomIcon" value="ammoDismantleINCBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -123,6 +129,7 @@
             <property name="Stacknumber" value="250" />
             <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
             <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerComplete"/>
             <effect_group name="Base Effects" tiered="false">
                 <passive_effect name="EntityDamage" operation="base_set" value="20"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="15"/>
@@ -144,6 +151,7 @@
             <property name="Extends" value="ammoBundle9mmBulletBall"/>
             <property name="CustomIcon" value="ammo44MagnumBulletINC"/>
             <property name="EconomicValue" value="1400"/>
+            <property name="UnlockedBy" value="perkEnforcerComplete"/>
             <property class="Action0">
                 <property name="Create_item" value="ammo44MagnumBulletINC"/>
                 <property name="Create_item_count" value="100"/>
@@ -174,6 +182,7 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerHPAmmo"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -195,6 +204,7 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerAPAmmo"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -216,6 +226,7 @@
             <property name="CustomIcon" value="ammoDismantleINCBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerComplete"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -240,6 +251,7 @@
             <property name="Stacknumber" value="250" />
             <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
             <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkSniperComplete"/>
             <effect_group name="Base Effects" tiered="false">
                 <passive_effect name="EntityDamage" operation="base_set" value="20"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="15"/>
@@ -261,6 +273,7 @@
             <property name="Extends" value="ammoBundle9mmBulletBall"/>
             <property name="CustomIcon" value="ammo762mmBulletINC"/>
             <property name="EconomicValue" value="1400"/>
+            <property name="UnlockedBy" value="perkSniperComplete"/>
             <property class="Action0">
                 <property name="Create_item" value="ammo762mmBulletINC"/>
                 <property name="Create_item_count" value="100"/>
@@ -291,6 +304,7 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkSniperHPAmmo"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -312,6 +326,7 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkSniperAPAmmo"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -333,6 +348,7 @@
             <property name="CustomIcon" value="ammoDismantleINCBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkSniperComplete"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -361,7 +377,8 @@
             <!-- STK ammo low -->
             <property name="EconomicValue" value="20"/>
             <property name="Group" value="Ammo/Weapons"/>
-            <property name="DescriptionKey" value="ammoShotgunShellINCDesc"/>
+            <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
             <effect_group name="Base Effects" tiered="false">
                 <passive_effect name="EntityDamage" operation="base_set" value="20"/>
                 <passive_effect name="BlockDamage" operation="base_set" value="15"/>
@@ -392,6 +409,7 @@
             <property name="Extends" value="ammoBundle9mmBulletBall"/>
             <property name="CustomIcon" value="ammoShotgunShellINC"/>
             <property name="EconomicValue" value="1400"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
             <property class="Action0">
                 <property name="Create_item" value="ammoShotgunShellINC"/>
                 <property name="Create_item_count" value="100"/>
@@ -422,6 +440,7 @@
             <property name="CustomIcon" value="ammoDismantleINCBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -443,6 +462,7 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahSlugs"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -464,6 +484,7 @@
             <property name="CustomIcon" value="ammoDismantleBullet" />
             <property name="ItemTypeIcon" value="bundle"/>
             <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahBreachingSlugs"/>
             <property name="HoldType" value="45"/>
             <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
