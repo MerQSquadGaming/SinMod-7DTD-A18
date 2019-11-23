@@ -1,25 +1,27 @@
 <SinModTraps>
     <append xpath="/recipes">
         <!-- Expanded Traps Mod -->
-        <recipe name="trapAdhesive" count="1" scrapable="False">
-            <ingredient name="resourceWood" count="4"/>
+        <recipe name="trapAdhesive" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceConcreteMix" count="10"/>
             <ingredient name="resourceGlue" count="4"/>
+            <ingredient name="resourcePaper" count="4"/>
         </recipe>
-        <recipe name="trapSteelFireSpike" count="1" scrapable="False">
-            <ingredient name="resourceForgedSteel" count="8" />
-            <ingredient name="ammoGasCan" count="10" />
-            <ingredient name="resourceGunPowder" count="4"/>
+        <recipe name="trapShock" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="10" />
+            <ingredient name="carBattery" count="1" />
+            <ingredient name="resourceElectricParts" count="2"/>
+            <ingredient name="resourceConcreteMix" count="10" />
         </recipe>
-        <recipe name="trapFire" count="2" scrapable="False">
-            <ingredient name="resourceForgedSteel" count="8" />
+        <recipe name="trapFireEmpty" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="10" />
             <ingredient name="toolCookingGrill" count="1" />
-            <ingredient name="ammoGasCan" count="1" />
-            <ingredient name="resourceGunPowder" count="4"/>
+            <ingredient name="resourceConcreteMix" count="10" />
+            <ingredient name="resourceMechanicalParts" count="2"/>
         </recipe>
-        <recipe name="trapGasCan" count="1" scrapable="False">
-            <ingredient name="ammoGasCan" count="4"/>
-            <ingredient name="resourceGunPowder" count="4"/>
-            <ingredient name="resourceScrapPolymers" count="8"/>
+        <recipe name="trapGasCan" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="ammoGasCan" count="1"/>
+            <ingredient name="resourceGunPowder" count="1"/>
+            <ingredient name="resourcePotassiumNitratePowder" count="1"/>
         </recipe>
     </append>
 </SinModTraps>

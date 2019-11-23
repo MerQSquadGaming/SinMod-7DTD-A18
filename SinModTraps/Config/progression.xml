@@ -1,0 +1,4 @@
+<SinModTraps>
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='3,5']/@tags">,trapAdhesive,trapShock,trapFireEmpty,trapGasCan
+    </append>
+</SinModTraps>

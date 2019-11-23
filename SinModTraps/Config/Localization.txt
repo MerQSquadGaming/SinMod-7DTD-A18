@@ -1,9 +1,13 @@
 Key,Source,Context,Changes,English
-trapFire,blocks,Traps,,Fire Trap,,
-trapFireDesc,blocks,Traps,,This trap sets whatever walks over it on fire. When it goes out you can refill it using gasoline.,,
+
+trapFireEmpty,blocks,Traps,,(Empty) Fire Trap,,
+trapFireDesc,blocks,Traps,,This trap sets whatever walks over it on fire. When it goes out you can Refill it using gasoline.,,
+
 trapAdhesive,blocks,Traps,,Adhesive Trap,,
 trapAdhesiveDesc,blocks,Traps,,This trap doesn't deal damage but will slow any enemy that walks over it.,,
-trapAdhesiveSpike,blocks,Traps,,Adhesive Spike,,
-trapAdhesiveSpikeDesc,blocks,Traps,,This logspike has been coated with adhesive to make enemies move slower when the try to cross it.,,
-trapSteelSpike,blocks,Traps,,Steel Spike,,
-trapSteelFireSpike,blocks,Traps,,Steel Fire Spike,,
+
+trapShock,blocks,Traps,,Shocking Block,,
+trapShockDesc,blocks,Traps,,Shocks and slows anything that walks across the surface causing damage as well.,,
+
+trapGasCan,item,Items,,Trap Gas Can,,
+trapGasCanDesc,item,Items,,Use this to refill emptied fire trap blocks.
