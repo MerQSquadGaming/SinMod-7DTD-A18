@@ -2,22 +2,33 @@ Key,Source,Context,Changes,English
 
 ammoDismantleBundleGroupDesc,items,Ammo,New,Break down ammo to its original components.\n\nUse this item to take the compents out of the ammo.,,
 
-ammoDismantle44MagnumBulletBall,items,Ammo,New,Dismantled - 44Mag Ball Bullets,,
-ammoDismantle44MagnumBulletHP,items,Ammo,New,Dismantled - 44Mag HP Bullets,,
-ammoDismantle44MagnumBulletAP,items,Ammo,New,Dismantled - 44Mag AP Bullets,,
-ammoDismantle44MagnumBulletINC,items,Ammo,New,Dismantled - 44Mag INC Bullets,,
+ammo44MagnumBulletINC,items,Item Gun,,.44 Magnum Incendiary Bullet,,
+ammoDismantle44MagnumBulletBall,items,Ammo,New,Dismantled - .44 Magnum Ball Bullets,,
+ammoDismantle44MagnumBulletHP,items,Ammo,New,Dismantled - .44 Magnum HP Bullets,,
+ammoDismantle44MagnumBulletAP,items,Ammo,New,Dismantled - .44 Magnum AP Bullets,,
+ammoDismantle44MagnumBulletINC,items,Ammo,New,Dismantled - .44 Magnum INC Bullets,,
+ammoBundle44MagnumBulletINC,items,Ammo,New,Box of .44 Magnum INC Ammo (100),,
+
+ammo9mmBulletINC,items,Item Gun,,9mm Incendiary Bullet,,
 ammoDismantle9mmBulletBall,items,Ammo,New,Dismantled - 9mm Ball Bullets,,
 ammoDismantle9mmBulletHP,items,Ammo,New,Dismantled - 9mm HP Bullets,,
 ammoDismantle9mmBulletAP,items,Ammo,New,Dismantled - 9mm AP Bullets,,
 ammoDismantle9mmBulletINC,items,Ammo,New,Dismantled - 9mm INC Bullets,,
-ammoDismantle762mmBulletBall,items,Ammo,New,Dismantled - 762mm Ball Bullets,,
-ammoDismantle762mmBulletHP,items,Ammo,New,Dismantled - 762mm HP Bullets,,
-ammoDismantle762mmBulletAP,items,Ammo,New,Dismantled - 762mm AP Bullets,,
-ammoDismantle762mmBulletINC,items,Ammo,New,Dismantled - 762mm INC Bullets,,
+ammoBundle9mmBulletINC,items,Ammo,New,Box of 9mm INC Ammo (100),,
+
+ammo762mmBulletINC,items,Item Gun,,7.62mm Incendiary Bullet,,
+ammoDismantle762mmBulletBall,items,Ammo,New,Dismantled - 7.62mm Ball Bullets,,
+ammoDismantle762mmBulletHP,items,Ammo,New,Dismantled - 7.62mm HP Bullets,,
+ammoDismantle762mmBulletAP,items,Ammo,New,Dismantled - 7.62mm AP Bullets,,
+ammoDismantle762mmBulletINC,items,Ammo,New,Dismantled - 7.62mm INC Bullets,,
+ammoBundle762mmBulletINC,items,Ammo,New,Box of 7.62mm INC Ammo (100),,
+
+ammoShotgunShellINC,items,Item Gun,,Shotgun INC Shell,,
 ammoDismantleShotgunShell,items,Ammo,New,Dismantled - Shotgun Shells,,
 ammoDismantleShotgunSlug,items,Ammo,New,Dismantled - Shotgun Slugs,,
 ammoDismantleShotgunBreachingSlug,items,Ammo,New,Dismantled - Shotgun Breaching Slug,,
 ammoDismantleShotgunShellINC,items,Ammo,New,Dismantled - Shotgun INC Shells,,
+ammoBundleShotgunShellINC,items,Ammo,New,Box of INC Shotgun Shells (100),,
 
 
 
@@ -26,8 +37,8 @@ resourceEmptyFireTipDesc,items,Item Gun,,These bullet tips have been hollowed ou
 resourceFireTip,items,Item Gun,,Filled Incendiary Tip,,
 resourceFireTipDesc,items,Item Gun,,These bullet tips have hav been filled with fire compound for incendiary rounds.,,
 
-ammo9mmBulletINC,items,Item Gun,,9mm Incendiary Bullet,,
-ammo44MagnumBulletINC,items,Item Gun,,44. Magnum Incendiary Bullet,,
-ammo762mmBulletINC,items,Item Gun,,762mm Incendiary Bullet,,
-ammoShotgunShellINC,items,Item Gun,,Shotgun Incendiary Shell,,
+
+
+
+
 ammoBulletINCDesc,items,Item Gun,,These bullets have been modified to ignite the target on fire on impact.,,
