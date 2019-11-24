@@ -1,7 +1,7 @@
 <SinModTraps>
     <append xpath="/blocks">
         <block name="trapFireEmpty">
-        <property name="DescriptionKey" value="trapFireEmptyDesc"/> 
+            <property name="DescriptionKey" value="trapFireEmptyDesc"/>
             <property name="CustomIcon" value="trapFire" />
             <property name="Material" value="Msteel" />
             <property name="Texture" value="356,352,352,352,352,352" />
@@ -13,49 +13,61 @@
             </property>
             <drop event="Destroy" count="0" prob="1" />
             <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0" stick_chance="1" />
+            <property name="Group" value="Tools/Traps" />
+            <property name="UnlockedBy" value="perkAdvancedEngineering"/>
         </block>
         <block name="trapFire">
             <property name="CustomIcon" value="trapFire" />
             <property name="DescriptionKey" value="trapFireDesc"/>
             <property name="Class" value="Damage" />
             <property name="Damage" value="1" />
-            <property name="Damage_received" value="13" />
+            <property name="Damage_received" value="23" />
             <property name="BuffsWhenWalkedOn" value="buffBurningMolotov" />
             <property name="Material" value="Msteel" />
             <property name="Texture" value="355,352,352,352,352,352" />
             <property name="DowngradeBlock" value="trapFireEmpty" />
+            <property class="RepairItems">
+                <property name="trapGasCan" value="10"/>
+            </property>
             <drop event="Destroy" count="0" prob="1" />
             <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0" stick_chance="1" />
             <property name="Group" value="Tools/Traps" />
+
         </block>
         <block name="trapAdhesive">
-            <property name="CustomIconTint" value="4040ff"/>
+            <property name="CustomIcon" value="trapAdhesive" />
             <property name="DescriptionKey" value="trapAdhesiveDesc"/>
             <property name="CustomIcon" value="trapAdhesive" />
-            <property name="Material" value="MbarbedFence" />
-            <property name="Shape" value="ModelEntity" />
-            <property name="Texture" value="217" />
-            <property name="Model" value="Entities/Electrical/pressure_platePrefab"/>
-            <property name="HandleFace" value="Bottom"/>
-            <property name="ImposterExchange" value="imposterPlate" param1="143"/>
+            <property name="Material" value="Madhesive" />
+            <property name="Shape" value="New" />
+            <property name="Texture" value="535" />
+            <property name="Model" value="Plate"/>
             <property name="CanPickup" value="false"/>
-            <property name="MultiBlockDim" value="1,1,1"/>
             <drop event="Destroy" count="0" />
-            <property name="Group" value="Building" />
+            <property name="Group" value="Tools/Traps" />
             <drop event="Fall" count="0"/>
+            <property class="RepairItems">
+
+                <property name="resourceGlue" value="1"/>
+            </property>
+            <property name="UnlockedBy" value="perkAdvancedEngineering"/>
         </block>
         <block name="trapShock">
-            <property name="CustomIcon" value="trapFire" />
-            <property name="DescriptionKey" value="trapFireDesc"/>
+            <property name="CustomIcon" value="trapShock" />
+            <property name="DescriptionKey" value="trapShockDesc"/>
             <property name="Class" value="Damage" />
             <property name="Damage" value="1" />
             <property name="Damage_received" value="13" />
             <property name="BuffsWhenWalkedOn" value="buffShocked" />
             <property name="Material" value="Msteel" />
-            <property name="Texture" value="355,352,352,352,352,352" />
+            <property name="Texture" value="46,46,46,46,46,46" />
             <drop event="Destroy" count="0" prob="1" />
             <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0" stick_chance="1" />
             <property name="Group" value="Tools/Traps" />
+            <property class="RepairItems">
+                <property name="resourceElectricParts" value="1"/>
+            </property>
+            <property name="UnlockedBy" value="perkAdvancedEngineering"/>
         </block>
     </append>
-    </SinModTraps>
+</SinModTraps>

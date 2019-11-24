@@ -2,7 +2,7 @@
     <append xpath="/recipes">
         <!-- Expanded Traps Mod -->
         <recipe name="trapAdhesive" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
-            <ingredient name="resourceConcreteMix" count="10"/>
+            <ingredient name="resourceConcreteMix" count="5"/>
             <ingredient name="resourceGlue" count="4"/>
             <ingredient name="resourcePaper" count="4"/>
         </recipe>
