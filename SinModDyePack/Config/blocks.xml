@@ -1,9 +1,8 @@
-<configs>
+<SinModDyePack>
     <append xpath="/blocks">
-        <block name="Dye Station">
+        <!--<block name="Dye Station">
             <property name="Class" value="Campfire"/>
             <property name="CustomIcon" value="chemistryStation"/>
-            
             <property name="Material" value="Miron_scrap"/>
             <property name="MaxDamage" value="800"/>
             <property name="Shape" value="ModelEntity"/>
@@ -21,7 +20,6 @@
             <property name="HeatMapTime" value="1200"/>
             <property name="HeatMapFrequency" value="25"/>
             <property name="ActiveRadiusEffects" value="+heatSource(3)"/>
-
             <property class="Workstation">
                 <property name="Modules" value="output"/>
             </property>
@@ -33,7 +31,6 @@
             <property name="CraftSound" value="chem_station_mix_click" />
             <property name="CraftCompleteSound" value="chem_station_complete_item" />
             <property name="WorkstationJournalTip" value="chemistryStationTip" />
-
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="10"/>
                 <property name="resourceMetalPipe" value="10"/>
@@ -54,7 +51,6 @@
             <property name="SellableToTrader" value="false"/>
             <property name="FilterTags" value="fdecor,fother,ffurniture"/>
             <property name="SortOrder1" value="70i0"/>
-        </block>
-
+        </block>-->
     </append>
-</configs>
+</SinModDyePack>

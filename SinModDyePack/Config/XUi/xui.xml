@@ -1,6 +1,6 @@
 <SinModDyePack>
     <append xpath="/xui/ruleset">
-        <window_group name="workstation_Dye Station" controller="XUiC_WorkstationWindowGroup">
+        <!--<window_group name="workstation_Dye Station" controller="XUiC_WorkstationWindowGroup">
             <window name="windowCraftingList"/>
             <window name="craftingInfoPanel"/>
             <window name="windowCraftingQueue"/>
@@ -8,6 +8,6 @@
             <window name="windowNonPagingHeader" />
             <window name="windowCombine" />
             <window name="windowFuel" />
-        </window_group>
+        </window_group>-->
     </append>
 </SinModDyePack>

@@ -1,13 +1,23 @@
 <SinModDyePack>
-<configs>
+
+<remove xpath="/item_modifiers/item_modifier[@name='modDyeRed']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modDyeGreen']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modDyeBlack']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modDyeBlue']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modDyeBrown']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modDyePurple']"/>
+<remove xpath="/item_modifiers/item_modifier[@name='modDyeYellow']"/>
+
 	<append xpath="/item_modifiers">
-
-
-		<item_modifier name="Dye: Red" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeRed" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="255,0,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="255,0,0"/>
@@ -44,7 +54,6 @@
 				<property name="UMA.Overlay0Tint" value="255,0,0"/>
 			</item_property_overrides>
 
-
 			<item_property_overrides name="apparelFlannelShirt">
 				<property name="UMA.Overlay0Tint" value="255,0,0"/>
 			</item_property_overrides>
@@ -78,12 +87,15 @@
 
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Green" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeGreen" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="0,128,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="0,128,0"/>
@@ -154,14 +166,17 @@
 
 		</item_modifier>
 
-
-
-		<item_modifier name="Dye: Black" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeBlack" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="0,0,0"/>
 
+
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 			<item_property_overrides name="*">
 				<property name="TintColor" value="0,0,0"/>
 				<property name="CustomIconTint" value="0,0,0"/>
@@ -231,12 +246,15 @@
 
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Blue" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeBlue" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="0,0,255"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="0,0,255"/>
@@ -307,12 +325,16 @@
 
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Brown" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeBrown" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="165,42,42"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="165,42,42"/>
@@ -383,11 +405,16 @@
 
 		</item_modifier>
 
-		<item_modifier name="Dye: Purple" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyePurple" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="128,0,128"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="128,0,128"/>
@@ -458,11 +485,16 @@
 
 		</item_modifier>
 
-		<item_modifier name="Dye: Yellow" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeYellow" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="255,255,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="255,255,0"/>
@@ -533,11 +565,16 @@
 
 		</item_modifier>
 
-		<item_modifier name="Dye: Orange" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeOrange" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="255,165,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="255,165,0"/>
@@ -608,11 +645,15 @@
 
 		</item_modifier>
 
-		<item_modifier name="Dye: Beige" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeBeige" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="245,245,220"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="245,245,220"/>
@@ -682,13 +723,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Tan" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeTan" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="210,180,140"/>
 
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 			<item_property_overrides name="*">
 				<property name="TintColor" value="210,180,140"/>
 				<property name="CustomIconTint" value="210,180,140"/>
@@ -757,11 +801,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: Silver" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeSilver" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="192,192,192"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="192,192,192"/>
@@ -832,12 +880,15 @@
 
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Gray" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeGray" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="128,128,128"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="128,128,128"/>
@@ -908,12 +959,16 @@
 
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Charcoal" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeCharcoal" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="70,70,70"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="70,70,70"/>
@@ -983,11 +1038,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: NavyBlue" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeNavyBlue" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="0,0,128"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="0,0,128"/>
@@ -1057,12 +1116,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: RoyalBlue" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeRoyalBlue" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="8,76,158"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="8,76,158"/>
@@ -1132,12 +1195,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Azure" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeAzure" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="0,127,255"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="0,127,255"/>
@@ -1207,12 +1274,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Cyan" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeCyan" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="0,255,255"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="0,255,255"/>
@@ -1282,12 +1353,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Aquamarine" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeAquamarine" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="127,255,212"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="127,255,212"/>
@@ -1357,12 +1431,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Teal" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeTeal" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="0,128,128"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="0,128,128"/>
@@ -1433,11 +1511,16 @@
 
 		</item_modifier>
 
-		<item_modifier name="Dye: ForestGreen" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeForestGreen" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="34,139,34"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="34,139,34"/>
@@ -1507,12 +1590,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Olive" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeOlive" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="128,128,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="128,128,0"/>
@@ -1582,12 +1669,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Chartreuse" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeChartreuse" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="127,255,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="127,255,0"/>
@@ -1657,12 +1748,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Lime" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeLime" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="191,255,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="191,255,0"/>
@@ -1732,12 +1827,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Golden" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeGolden" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="255,215,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="255,215,0"/>
@@ -1807,12 +1906,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Coral" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeCoral" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="255,127,80"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="255,127,80"/>
@@ -1882,12 +1984,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Salmon" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeSalmon" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="250,128,114"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="250,128,114"/>
@@ -1957,12 +2062,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: HotPink" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeHotPink" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="252,15,192"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="252,15,192"/>
@@ -2032,11 +2140,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: Fuchsia" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeFuchsia" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="255,119,255"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="255,119,255"/>
@@ -2106,11 +2218,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: Puce" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyePuce" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="204,136,153"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="204,136,153"/>
@@ -2180,11 +2296,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: Mauve" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeMauve" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="224,176,255"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="224,176,255"/>
@@ -2254,12 +2374,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Lavender" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeLavender" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="181,126,220"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="181,126,220"/>
@@ -2329,12 +2452,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-
-		<item_modifier name="Dye: Plum" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyePlum" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="132,49,121"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="132,49,121"/>
@@ -2404,11 +2530,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: Indigo" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeIndigo" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="75,0,130"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="75,0,130"/>
@@ -2478,11 +2609,15 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: Maroon" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeMaroon" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="128,0,0"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="128,0,0"/>
@@ -2552,11 +2687,16 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 
-		<item_modifier name="Dye: Crimson" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
+		<item_modifier name="modDyeCrimson" installable_tags="clothing,armor,weapon,tool,vehicle" modifier_tags="dye" type="attachment" rarity="0.2" cosmetic_install_chance="1">
 			<property name="DescriptionKey" value="modDyeGroupDesc"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Stacknumber" value="1"/>
 			<property name="CustomIcon" value="modDyeWhite"/>
 			<property name="CustomIconTint" value="220,20,60"/>
+			<property name="Material" value="Mpaint"/>
+			<property name="Weight" value="20"/>
+
 
 			<item_property_overrides name="*">
 				<property name="TintColor" value="220,20,60"/>
@@ -2626,5 +2766,4 @@
 			<property name="PickupJournalEntry" value="augmentGunsTip"/>
 		</item_modifier>
 	</append>
-</configs>
 </SinModDyePack>
