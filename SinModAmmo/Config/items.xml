@@ -8,8 +8,8 @@
             <property name="UnlockedBy" value="perkPistolPeteComplete"/>
             <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
             <effect_group name="Base Effects" tiered="false">
-                <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-                <passive_effect name="BlockDamage" operation="base_set" value="15"/>
+                <passive_effect name="EntityDamage" operation="base_set" value="52.2"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="5"/>
                 <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
                 <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
                 <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -131,12 +131,8 @@
             <property name="DescriptionKey" value="ammoBulletINCDesc"/>
             <property name="UnlockedBy" value="perkEnforcerComplete"/>
             <effect_group name="Base Effects" tiered="false">
-                <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-                <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+                <passive_effect name="EntityDamage" operation="base_set" value="101.3"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="8"/>
                 <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
                     <requirement name="EntityTagCompare" target="self" tags="zombie"/>
                 </triggered_effect>
@@ -253,12 +249,8 @@
             <property name="DescriptionKey" value="ammoBulletINCDesc"/>
             <property name="UnlockedBy" value="perkSniperComplete"/>
             <effect_group name="Base Effects" tiered="false">
-                <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-                <passive_effect name="BlockDamage" operation="base_set" value="15"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
-                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+                <passive_effect name="EntityDamage" operation="base_set" value="82.3"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="6"/>
                 <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
                     <requirement name="EntityTagCompare" target="self" tags="zombie"/>
                 </triggered_effect>
@@ -380,8 +372,8 @@
             <property name="DescriptionKey" value="ammoBulletINCDesc"/>
             <property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
             <effect_group name="Base Effects" tiered="false">
-                <passive_effect name="EntityDamage" operation="base_set" value="20"/>
-                <passive_effect name="BlockDamage" operation="base_set" value="15"/>
+                <passive_effect name="EntityDamage" operation="base_set" value="80"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="10"/>
                 <passive_effect name="RoundRayCount" operation="base_set" value="1"/>
                 <passive_effect name="MaxRange" operation="base_set" value="4"/>
                 <passive_effect name="DamageFalloffRange" operation="base_set" value="1"/>
