@@ -92,6 +92,34 @@
             <property name="CustomIcon" value="flagSniper" />
             <property name="CreativeMode" value="Dev"/>
         </block>
+        <block name="flagSam">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagSam" />
+            <property name="CustomIcon" value="flagSam" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagKiss">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagKiss" />
+            <property name="CustomIcon" value="flagKiss" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagMoon">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagMoon" />
+            <property name="CustomIcon" value="flagMoon" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagMenuXmas">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagMenuXmas" />
+            <property name="CustomIcon" value="flagMenuXmas" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
         <block name="flagBlockVariantHelper">
             <property name="Extends" value="flagMain"/>
             <property name="CustomIcon" value="flagMain"/>
@@ -99,7 +127,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="flagMain,flagUsa,flagBunny,flagMerq,flagDove,flagDog,flagSinMod,flagViking,flagCroatia,flagMenu"/>
+            <property name="PlaceAltBlockValue" value="flagMain,flagUsa,flagBunny,flagMerq,flagDove,flagDog,flagSinMod,flagViking,flagCroatia,flagMenu,flagSniper,flagSam,flagKiss,flagMoon,flagMenuXmas"/>
         </block>
         <!--
         <block name="bannerMain">

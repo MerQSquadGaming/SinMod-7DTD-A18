@@ -9,6 +9,10 @@ flagSinMod,block,Flag,New,SinMod Flag Landclaim
 flagViking,block,Flag,New,Viking Flag Landclaim
 flagCroatia,block,Flag,New,Croatia Flag Landclaim
 flagSniper,block,Flag,New,Sniper Flag Landclaim
+flagMoon,block,Flag,New,Moon Flag Landclaim
+flagKiss,block,Flag,New,Kiss Flag Landclaim
+flagMenuXmas,block,Flag,New,MerQ Xmas Flag Landclaim
+flagSam,block,Flag,New,Sam Flag Landclaim
 flagBlockVariantHelper,block,Flag,New,Flag Selector Landclaim
 
 
