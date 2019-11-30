@@ -1,7 +1,7 @@
 <SinModHerpes>
 <!-- Add the herpes buff, we'll remove infection too -->
 <set xpath="/items/item[@name='meleeHandZombieStripper']/property[@class='Action0']/property[@name='Buff']/@value">buffHerpes,buffInjuryBleeding,buffInjuryStunned1</set>
-<insertAfter xpath="/items/item[starts-with(@name, 'meleeHandZombieStripper')]/passive_effect[@name='BuffProcChance']">
+<insertAfter xpath="/items/item[starts-with(@name,'meleeHandZombieStripper')]/effect_group[starts-with(@name,'meleeHandZombieStripper')]/passive_effect[@name='BuffProcChance']">
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffHerpes"/>
 </insertAfter>
 </SinModHerpes>
